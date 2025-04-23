@@ -32,6 +32,29 @@ einbringen können.
 
 ---
 
+## Unterrichtsorganisation
+
+- Lektionen: 40 Lektionen
+  - 50% Theorie, 50% Übungen
+  - Gruppenarbeiten
+  - Einzelarbeiten
+  - Gemeinsames lösen von Aufgaben
+- Prüfungen
+  - 1 Prüfung eine Note (21.06.2025) Online mit Microsoft Forms 2h
+- Hausaufgaben
+  - Werden im Unterricht oder per Mail angekündigt
+  - Richtgrösse: 2h / Block
+- Erreichbarkeit
+  - lukas.mueller@dozent.ipso.ch innerhalb von 3 Tagen (Antwort)
+
+---
+
+## Unterrichtsstrukturierung
+
+![Unterrichtsstrukturierung](./x_gitres/unit-overview.png)
+
+---
+
 ## Vorstellung
 
 ### Wer bin ich
@@ -40,7 +63,7 @@ einbringen können.
 - Wohnort: 5426 Lengnau AG
 - Mail: <lukas.mueller@dozent.ipso.ch>
 
-- Kleine Firma in technischer Softwareentwicklung (Automation)
+- Kleines Softwarebüro, technische Softwareentwicklung (Fertigungsindustrie, Automation)
   - Datenbankentwicklung (MS-SQL, Oracle)
   - Softwareentwicklung (C/C++, C#)
 - Fachdozent bei IPSO (HF u. EFZ), HBU Uster, Juventus Zürich
