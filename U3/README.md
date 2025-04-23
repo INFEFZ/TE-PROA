@@ -6,30 +6,36 @@
 
 ## Besprechung der Hausaufgaben
 
-## [Datentypen](Datentypen.md)
+## [Lernziele](./lernziele.md)
 
-- Einführung
-- Elemetare Datentypen
+- Was lernen wir?
+
+## [Datentypen](./datentypen.md)
+
+- Elementare Datentypen
+- Ganzzahlen
+- Gleitkommazahlen
+- Character
+- Boolean
 - Strukturierte Datentypen
+  - Record (struct)
+- Datenfeld (Array)
 - Übungsaufgaben
 
-## [Datenstrukturen](datenstrukturen.md)
+## [Datenstrukturen](./datenstrukturen.md)
 
 - Einführung
 - Dynamische Datenstrukturen
-  - List
-  - Stack
-  - Queue
+- List
+- Queue
+- Stack
 - Übungsaufgaben
 
-## [Zahlensysteme](zahlensysteme.md)
+## [Zahlensysteme](./zahlensysteme.md)
 
-- Bit, Byte, Wort
-- Umwandlung Zahlen
+- Dezimal
+- Hexadezimal
+- Dual
+- Umwandlungen
+- ASCII-Zeichensatz
 - Übungsaufgaben
-
-## [Entwicklungsmethodik](funktionen.md)
-
-- Einführung
-- Demo Visual Studio Code
-- Demo GitHub

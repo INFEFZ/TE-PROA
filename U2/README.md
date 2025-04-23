@@ -6,7 +6,11 @@
 
 ## Besprechung der Hausaufgaben
 
-## [Einführung in Programmsteuerung](programmsteuerung.md)
+## [Lernziele](./lernziele.md)
+
+- Was lernen wir?
+
+## [Einführung in Programmsteuerung](./programmsteuerung.md)
 
 - Definition
 - Auswahl (Verzweigungen)
@@ -16,8 +20,9 @@
 - Logische Verknüpfungen
 - Übungsaufgaben
 
-## [Funktionen](funktionen.md)
+## [Funktionen](./funktionen.md)
 
 - Definition
+- Sinn u. Zweck
 - Darstellung in Diagrammen
 - Übungsaufgaben
