@@ -22,7 +22,7 @@ einbringen können.
 | **Semester**  | D                |
 | **Prüfung**   | 1 x Teilprüfung  |
 
-![Curriculum](./X1/Programmiertechnik%20A.pdf)
+![Curriculum](./x_gitres/Programmiertechnik%20A.pdf)
 
 ---
 
