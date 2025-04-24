@@ -9,6 +9,7 @@
     - [1.2.2. Beispiel der Grundelemente](#122-beispiel-der-grundelemente)
   - [1.3. Beispiel](#13-beispiel)
   - [1.4. Zweck u. Ziele](#14-zweck-u-ziele)
+  - [1.5. Mit draw.io einen Programmablaufplan (PAP) erstellen](#15-mit-drawio-einen-programmablaufplan-pap-erstellen)
 - [2. Aufgaben](#2-aufgaben)
   - [2.1. Zahl auswerten](#21-zahl-auswerten)
   - [2.2. Flowgorithm Einführung](#22-flowgorithm-einführung)
@@ -65,6 +66,10 @@ Von dort aus folgt man den Pfeilen von oben nach unten bzw. von Entscheidungspun
 - Hilft bei der Planung und Analyse
 - Unterstützt beim Debugging und der Kommunikation in Teams
 - Geeignet für Präsentationen und Dokumentationen
+
+## 1.5. Mit draw.io einen Programmablaufplan (PAP) erstellen
+
+[Kleines Tutorial](https://www.youtube.com/watch?v=QmF2p_fUcnM)
 
 ---
 
