@@ -2,9 +2,28 @@
 | --------------------------- | ------------------------ | -------------------------------------- |
 | **Elektrotechniker/-in HF** | **Programmiertechnik A** | ![IPSO Logo](./x_gitres/ipso_logo.png) |
 
-# Datentypen
+- [1. Datentypen](#1-datentypen)
+  - [1.1. Elementare Datentypen](#11-elementare-datentypen)
+    - [1.1.1. Elementare Datentypen in C](#111-elementare-datentypen-in-c)
+    - [1.1.2. Gleitkommazahlen (Floating-Point)](#112-gleitkommazahlen-floating-point)
+    - [1.1.3. Zusammenfassung](#113-zusammenfassung)
+  - [1.2. Strukturierte Datentypen](#12-strukturierte-datentypen)
+    - [1.2.1. Array (Datenfeld)](#121-array-datenfeld)
+      - [1.2.1.1. Beispiel Wochentage](#1211-beispiel-wochentage)
+    - [1.2.2. Benutzerdefinierter Datentyp (struct)](#122-benutzerdefinierter-datentyp-struct)
+      - [1.2.2.1. typedef](#1221-typedef)
+      - [1.2.2.2. Komplette struct-Verwendung](#1222-komplette-struct-verwendung)
+- [2. Aufgaben](#2-aufgaben)
+  - [2.1. Datentypen bestimmen](#21-datentypen-bestimmen)
+  - [2.2. Recherche Wiki](#22-recherche-wiki)
 
-## Elementare Datentypen
+---
+
+</br>
+
+# 1. Datentypen
+
+## 1.1. Elementare Datentypen
 
 **Elementare Datentypen** (auch: primitive Datentypen) sind die grundlegendsten Datentypen, die von nahezu allen Programmiersprachen bereitgestellt werden.
 Sie dienen dazu, einfache Werte wie Zahlen, Zeichen oder Wahrheitswerte zu speichern.
@@ -44,7 +63,7 @@ Diese Datentypen bilden die Basis, auf der komplexere Datenstrukturen (wie Liste
   - Obwohl technisch oft zusammengesetzt, gelten sie in vielen Sprachen als „einfacher“ Typ.
   - Wichtig für Benutzereingaben, Textverarbeitung, Ausgaben.
 
-### Elementare Datentypen in C
+### 1.1.1. Elementare Datentypen in C
 
 - C bietet eine klare, aber leistungsstarke Auswahl an primitiven Datentypen.
 - Um Programme effizient und portabel schreiben zu können, ist ein gutes Verständnis dieser Typen und ihrer Grenzen unerlässlich.
@@ -52,7 +71,7 @@ Diese Datentypen bilden die Basis, auf der komplexere Datenstrukturen (wie Liste
 | **Typ**                | **Speichergrösse** | **Wertebereich**                                                                    |
 | :--------------------- | :----------------- | :---------------------------------------------------------------------------------- |
 | **char**               | 1 Byte             | -128 bis 127 (signed) oder 0 bis 255 (unsigned)                                     |
-| **unsigned char**      | 1 Btye             | 0 bis 255                                                                           |
+| **unsigned char**      | 1 Byte             | 0 bis 255                                                                           |
 | **signed char**        | 1 Byte             | -128 bis 127                                                                        |
 | **int**                | 4 Bytes            | -2.147.483.648 bis 2.147.483.647                                                    |
 | **unsigned int**       | 4 Bytes            | 0 bis 4.294.967.295                                                                 |
@@ -65,7 +84,7 @@ Diese Datentypen bilden die Basis, auf der komplexere Datenstrukturen (wie Liste
 
 > Die genauen Werte können abhängig vom Compiler und System (32-Bit/64-Bit) sein – aber die untenstehenden Angaben gelten für die meisten modernen Umgebungen (z.B. GCC auf einem 64-Bit-System).
 
-### Gleitkommazahlen (Floating-Point)
+### 1.1.2. Gleitkommazahlen (Floating-Point)
 
 | **Typ**         | **Speichergrösse**                  | **Wertebereich**                            | Genauigkeit |
 | :-------------- | :---------------------------------- | :------------------------------------------ |
@@ -73,7 +92,7 @@ Diese Datentypen bilden die Basis, auf der komplexere Datenstrukturen (wie Liste
 | **double**      | 8 Bytes                             | ±2.3 × 10⁻³⁰⁸ bis ±1.7 × 10³⁰⁸              | 15 Stellen  |
 | **long double** | 10–16 Bytes (abhängig vom Compiler) | Noch grössere Genauigkeit und Wertebereiche | 18 Stellen  |
 
-### Zusammenfassung
+### 1.1.3. Zusammenfassung
 
 | **Typ**    | **Beispielwert** | **Beschreibung**                     |
 | :--------- | :--------------- | :----------------------------------- |
@@ -87,7 +106,7 @@ Diese Datentypen bilden die Basis, auf der komplexere Datenstrukturen (wie Liste
 
 ![Datentypen](./x_gitres/datenstrukturen-datentypen.png)
 
-## Strukturierte Datentypen
+## 1.2. Strukturierte Datentypen
 
 - Erlauben die Speicherung mehrere Elemente
 - Unterstützung unterschiedliche elementare Datentypen
@@ -97,7 +116,7 @@ Diese Datentypen bilden die Basis, auf der komplexere Datenstrukturen (wie Liste
   - **Array (Feld)**: **Sammlung von Elementen mit gleichem elementarem Datentyp**, Feldzugriff über den Index, Beispiel – ein Array mit Integerwerten
   - **Dynamische Datenstrukturen**: Grössen wird zur **Laufzeit** definiert und geändert, Beispiele: Verkettete Listen, Bäume (Trees), Hash-Tabelle
 
-### Array (Datenfeld)
+### 1.2.1. Array (Datenfeld)
 
 - Ablegen mehrerer Datenobjekte vom gleichen Typ.
 - Sammlung von Elementen mit fester Grösse.
@@ -113,7 +132,7 @@ Diese Datentypen bilden die Basis, auf der komplexere Datenstrukturen (wie Liste
 ![Datenstruktur Array](./x_gitres/datenstruktur-array.png)
 ![Datenstruktur List](./x_gitres/datenstruktur-list-array.png)
 
-#### Beispiel Wochentage
+#### 1.2.1.1. Beispiel Wochentage
 
 Um Wochentage zu verwalten, kann für jeden Tag ein Variable deklariert werden:
 
@@ -147,7 +166,7 @@ printf("%s\n", wochentage[6]);    // Sonntag
 
 ![Array Wochentage](./x_gitres/datenstruktur-array-wochentage.png)
 
-### Benutzerdefinierter Datentyp (struct)
+### 1.2.2. Benutzerdefinierter Datentyp (struct)
 
 - Der `struct`-Befehl ist in der Programmiersprache C ein zentrales Werkzeug zur Definition **benutzerdefinierter Datentypen**.
 - Ein `struct` (kurz für structure) ist ein benutzerdefinierter Datentyp, der mehrere Variablen verschiedener Datentypen in einer einzigen Einheit zusammenfasst.
@@ -168,7 +187,7 @@ Das definiert eine neue Struktur namens Person mit drei Feldern:
 
 - einem `char`-Array für den Namen,
 - einem `int` für das Alter,
-- einem `float` für die Körpergröße.
+- einem `float` für die Körpergrösse.
 
 ```c
 // Deklaration der Strukturvariable
@@ -185,7 +204,7 @@ printf("Alter: %d\n", p1.alter);
 printf("Grösse: %.2f m\n", p1.groesse);
 ```
 
-#### typedef
+#### 1.2.2.1. typedef
 
 Mit typedef vereinfachen, um das Wort struct beim Deklarieren zu vermeiden:
 
@@ -200,7 +219,7 @@ typedef struct {
 Person p2;
 ```
 
-#### Komplette struct-Verwendung
+#### 1.2.2.2. Komplette struct-Verwendung
 
 ```c
 #include <stdio.h>
@@ -221,7 +240,7 @@ int main() {
 
     printf("Name: %s\n", p.name);
     printf("Alter: %d\n", p.alter);
-    printf("Größe: %.2f m\n", p.groesse);
+    printf("Grösse: %.2f m\n", p.groesse);
 
     return 0;
 }
@@ -231,9 +250,9 @@ int main() {
 
 </br>
 
-# Aufgaben
+# 2. Aufgaben
 
-## Datentypen bestimmen
+## 2.1. Datentypen bestimmen
 
 | **Vorgabe**         | **Beschreibung**                                          |
 | :------------------ | :-------------------------------------------------------- |
@@ -259,7 +278,7 @@ Finden Sie für die aufgeführten Datenwerte geeignete Datentypen:
 
 ---
 
-## Recherche Wiki
+## 2.2. Recherche Wiki
 
 | **Vorgabe**         | **Beschreibung**                                                             |
 | :------------------ | :--------------------------------------------------------------------------- |

@@ -105,13 +105,13 @@ Gehe dabei wie folgt vor:
 
 1. Gehe auf die Website
    1. <https://github.com/>
-2. Klicke auf „Sign up“
+2. Klicke auf **„Sign up“**
    1. Oben rechts auf der Startseite findest du die Schaltfläche „Sign up“ (Registrieren).
 3. Gib deine E-Mail-Adresse ein
    1. Beispiel: <dein.name@student.ipso.ch>
-   2. → Klicke dann auf „Continue“
+   2. → Klicke dann auf **„Continue“**
 4. Wähle einen Benutzernamen
-   1. Das ist dein öffentlicher Name auf GitHub, z. B. codefan123.
+   1. Das ist dein öffentlicher Name auf GitHub, z.B. **codefan123**.
 5. Lege ein sicheres Passwort fest
    1. Mindestens 8 Zeichen, am besten mit Gross-, Kleinbuchstaben, Zahlen und Symbolen.
 6. Gib an, ob du E-Mails von GitHub erhalten willst

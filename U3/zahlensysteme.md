@@ -163,7 +163,7 @@ Die 96 darstellbaren Zeichen des ASCII-Zeichensatzes
 
 | **Vorgabe**         | **Beschreibung**                                                          |
 | :------------------ | :------------------------------------------------------------------------ |
-| **Lernziele**       | Kennt die verschiedenene Zahlensysteme                                    |
+| **Lernziele**       | Kennt die verschiedenen Zahlensysteme                                     |
 |                     | Kann Umwandlungen von einem Zahlensystem in ein anderes ausführen         |
 | **Sozialform**      | Einzelarbeit                                                              |
 | **Auftrag**         | siehe unten                                                               |
@@ -173,7 +173,7 @@ Die 96 darstellbaren Zeichen des ASCII-Zeichensatzes
 
 Führe die folgenden Zahlensystem Umwandlungen durch:
 
-1. Rechne die Zahl 0x1A ins Dezimalsystem um.
-2. Rechne die Zahl 292 ins Hexadezimalsystem um.
-3. Rechne die Zahl 010101111 ins Dezimalsystem um.
-4. Rechne die Zahl 0xAAAA ins Dualsystem um.
+1. Rechne die Zahl **0x1A** ins Dezimalsystem um.
+2. Rechne die Zahl **292** ins Hexadezimalsystem um.
+3. Rechne die Zahl **010101111** ins Dezimalsystem um.
+4. Rechne die Zahl **0xAAAA** ins Dualsystem um.

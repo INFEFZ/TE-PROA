@@ -8,7 +8,7 @@
     - [1.2.1. Lineare Datenstrukturen](#121-lineare-datenstrukturen)
     - [1.2.2. List](#122-list)
       - [1.2.2.1. Einfach verkettete Liste](#1221-einfach-verkettete-liste)
-      - [1.2.2.2. Doppeltverkettete Liste](#1222-doppeltverkettete-liste)
+      - [1.2.2.2. Doppelt verkettete Liste](#1222-doppelt-verkettete-liste)
     - [1.2.3. Stack](#123-stack)
     - [1.2.4. Queue](#124-queue)
     - [1.2.5. Mobile App "Algorithms"](#125-mobile-app-algorithms)
@@ -93,13 +93,13 @@ Diese ordnen Daten in einer linearen Reihenfolge:
 ![Datenstruktur List verkettet](./x_gitres/datenstruktur-list-verkettet.png)
 ![Datenstruktur List verkettet](./x_gitres/datenstruktur-list-remove.png)
 
-#### 1.2.2.2. Doppeltverkettete Liste
+#### 1.2.2.2. Doppelt verkettete Liste
 
 ![Datenstruktur List verkettet](./x_gitres/datenstruktur-list-doppelt.png)
 
 ### 1.2.3. Stack
 
-- Ablegen und Entnahme der Elemente von **oben**, d.h. die Elemente, die **zuletzt eingefügt wurden, werden als nächstes wieder entnomme**n (**Last-in-First-out, LIFO**).
+- Ablegen und Entnahme der Elemente von **oben**, d.h. die Elemente, die **zuletzt eingefügt wurden, werden als nächstes wieder entnommen** (**Last-in-First-out, LIFO**).
 
 ![Datenstruktur Stack](./x_gitres/datenstruktur-stack.png)
 
@@ -128,7 +128,7 @@ Ausgezeichnete mobile Anwendung zum Verständnis verschiedener Algorithmen (The 
 | **Lernziele**       | Kennt die elementaren Datentypen                                    |
 |                     | Kann korrekte Datentypen festlegen                                  |
 |                     | Kennt den Wertebereich der Datentypen                               |
-|                     | Kennt den Einsatzbereich von komplexten Datenstrukturen             |
+|                     | Kennt den Einsatzbereich von komplexen Datenstrukturen              |
 | **Sozialform**      | Einzelarbeit                                                        |
 | **Auftrag**         | siehe unten                                                         |
 | **Hilfsmittel**     | [Wiki Datenstrukturen](https://de.wikipedia.org/wiki/Datenstruktur) |

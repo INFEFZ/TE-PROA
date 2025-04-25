@@ -14,9 +14,9 @@
     - [1.5.1. Beispiel Mehrfachauswahl](#151-beispiel-mehrfachauswahl)
   - [1.6. Iteration (Wiederholungen)](#16-iteration-wiederholungen)
     - [1.6.1. Iteration mit Eintrittsbedingung](#161-iteration-mit-eintrittsbedingung)
-      - [1.6.1.1. Beispiel Interation mit Eintrittsbedingung](#1611-beispiel-interation-mit-eintrittsbedingung)
+      - [1.6.1.1. Beispiel Iteration mit Eintrittsbedingung](#1611-beispiel-iteration-mit-eintrittsbedingung)
     - [1.6.2. Iteration mit Wiedereintrittsbedingung](#162-iteration-mit-wiedereintrittsbedingung)
-      - [1.6.2.1. Beispiel Interation mit Wiedereintrittsbedingung](#1621-beispiel-interation-mit-wiedereintrittsbedingung)
+      - [1.6.2.1. Beispiel Iteration mit Wiedereintrittsbedingung](#1621-beispiel-iteration-mit-wiedereintrittsbedingung)
     - [1.6.3. Spezialform (Zählschleife)](#163-spezialform-zählschleife)
   - [1.7. Prozedur Aufruf (Unterprogramm)](#17-prozedur-aufruf-unterprogramm)
     - [1.7.1. Beispiel](#171-beispiel)
@@ -32,7 +32,7 @@
 # 1. Struktogramm
 
 Ein **Struktogramm** ist eine **grafische Darstellung eines Algorithmus**, die die strukturelle Programmierung visuell zeigt – also die Aufteilung in Anweisungen, Bedingungen und Wiederholungen.
-Aufgabe eines **Struktogrammes** ist es, den Ablauf eines Computerprogramms auf dem Papier darzustellen. Dazu wurden in den 70er Jahren des vergangenen Jahrhunderts von **Isaac Nassi** und **Ben Shneidermann** graphische Grundelemente entwickelt, die es ermöglichen sollten, Programmabläufe **ohne Sprunganweisungen** darzustellen.
+Aufgabe eines **Struktogramms** ist es, den Ablauf eines Computerprogramms auf dem Papier darzustellen. Dazu wurden in den 70er Jahren des vergangenen Jahrhunderts von **Isaac Nassi** und **Ben Shneidermann** graphische Grundelemente entwickelt, die es ermöglichen sollten, Programmabläufe **ohne Sprunganweisungen** darzustellen.
 Die Notwendigkeit ergab sich daraus, dass im Laufe der Zeit Computerprogramme immer komplexer und damit unübersichtlicher geworden waren. Mit der Einführung von Struktogrammen wurde es erforderlich, die Programmlogik wieder gründlich und ohne Sprünge zu planen. Man bezeichnete dies als strukturierte Programmierung.
 Es ist eine Alternative zu **Flussdiagrammen** und wird besonders in der Schule und bei der Programmplanung eingesetzt, weil es klar, logisch und leicht lesbar ist.
 
@@ -73,7 +73,7 @@ Eine **Sequenz** ist die Aneinanderreihung von Teilalgorithmen bzw. Anweisungen
 
 #### 1.3.1.1. Beispiel Sequenz
 
-![Beispiel Sequez](./x_gitres/struktogramm-sequenz-beispiel.png)
+![Beispiel Sequenz](./x_gitres/struktogramm-sequenz-beispiel.png)
 
 ---
 
@@ -131,11 +131,11 @@ Am Anfang der Iteration steht eine Eintrittsbedingung
 - Der anschliessende Teilalgorithmus wird wiederholt, solang die Bedingung erfüllt ist
 - Ist die Bedingung von Beginn an nicht erfüllt, kommt der Teilalgorithmus auch nicht zur Ausführung
 
-![Interation mit Eintrittsbedingung](./x_gitres/struktogramm-iteration-eintritt.png)
+![Iteration mit Eintrittsbedingung](./x_gitres/struktogramm-iteration-eintritt.png)
 
-#### 1.6.1.1. Beispiel Interation mit Eintrittsbedingung
+#### 1.6.1.1. Beispiel Iteration mit Eintrittsbedingung
 
-![Beispiel Interation mit Eintrittsbedingung](./x_gitres/struktogramm-iteration-eintritt-beispiel.png)
+![Beispiel Iteration mit Eintrittsbedingung](./x_gitres/struktogramm-iteration-eintritt-beispiel.png)
 
 ### 1.6.2. Iteration mit Wiedereintrittsbedingung
 
@@ -148,9 +148,9 @@ Der Teilalgorithmus wird ausgeführt, solange die **Wiedereintrittsbedingung** e
 
 ![Wiedereintrittsbedingung](./x_gitres/struktogramm-iteration-wiedereintritt.png)
 
-#### 1.6.2.1. Beispiel Interation mit Wiedereintrittsbedingung
+#### 1.6.2.1. Beispiel Iteration mit Wiedereintrittsbedingung
 
-![Beispiel Interation mit Wiedereintrittsbedingung](./x_gitres/struktogramm-iteration-wiedereintritt-beispiel.png)
+![Beispiel Iteration mit Wiedereintrittsbedingung](./x_gitres/struktogramm-iteration-wiedereintritt-beispiel.png)
 
 ### 1.6.3. Spezialform (Zählschleife)
 
@@ -210,7 +210,7 @@ Komplexe Abläufe werden durch Schachtelung von Kontrollstrukturen beschrieben
 
 | **Vorgabe**         | **Beschreibung**                                  |
 | :------------------ | :------------------------------------------------ |
-| **Lernziele**       | Kenn die Grundelemente eines Strukogramms         |
+| **Lernziele**       | Kennt die Grundelemente eines Struktogramms       |
 |                     | Kann ein Struktogramm entwickeln                  |
 |                     | Kann Algorithmen in einem Struktogramm darstellen |
 | **Sozialform**      | Einzelarbeit                                      |
@@ -224,3 +224,7 @@ Zeichne ein Struktogramm für folgendes Programm:
 - Einlesen einer Zahl von einem User Input
 - Vergleichen der Zahl, ob Sie grösser 0 ist.
 - Ausgeben der Zahl falls Sie grösser als 0 ist.
+
+Das Struktogramm kann wahlweise in [**draw.io**](https://app.diagrams.net/) oder mit dem [**Struktogramm Editor**](https://dditools.inf.tu-dresden.de/ovk/Informatik/Programmierung/Grundlagen/Struktogramme.html) erstellt werden.
+
+![Struktogramm Editor](./x_gitres/struktogramm-editor.png)

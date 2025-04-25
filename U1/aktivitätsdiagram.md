@@ -2,7 +2,7 @@
 | --------------------------- | ------------------------ | -------------------------------------- |
 | **Elektrotechniker/-in HF** | **Programmiertechnik A** | ![IPSO Logo](./x_gitres/ipso_logo.png) |
 
-- [1. Aktivitätsdiagram](#1-aktivitätsdiagram)
+- [1. UML-Aktivitätsdiagramm](#1-uml-aktivitätsdiagramm)
   - [1.1. Grundelemente eines Aktivitätsdiagramms](#11-grundelemente-eines-aktivitätsdiagramms)
     - [1.1.1. Startknoten (Initial Node)](#111-startknoten-initial-node)
     - [1.1.2. Endknoten (Activity Final Node)](#112-endknoten-activity-final-node)
@@ -15,24 +15,24 @@
   - [1.8. Swimlanes (Aktivitätsbereiche / Zuständigkeiten)](#18-swimlanes-aktivitätsbereiche--zuständigkeiten)
   - [1.9. Ablauf-Elemente - Iteration](#19-ablauf-elemente---iteration)
   - [1.10. Aktivität](#110-aktivität)
-  - [1.11. Beispiel Aktivitätsdiagram](#111-beispiel-aktivitätsdiagram)
+  - [1.11. Beispiel Aktivitätsdiagramm](#111-beispiel-aktivitätsdiagramm)
   - [1.12. Wozu Aktivitätsdiagramms](#112-wozu-aktivitätsdiagramms)
 - [2. Aufgaben](#2-aufgaben)
-  - [2.1. Aufgabe Aktivitätsdiagramm entwicklen](#21-aufgabe-aktivitätsdiagramm-entwicklen)
-  - [2.2. Aufgabe Aktivitätsdiagramm entwicklen](#22-aufgabe-aktivitätsdiagramm-entwicklen)
+  - [2.1. Aufgabe Aktivitätsdiagramm entwickeln](#21-aufgabe-aktivitätsdiagramm-entwickeln)
+  - [2.2. Aufgabe Aktivitätsdiagramm entwickeln](#22-aufgabe-aktivitätsdiagramm-entwickeln)
 
 ---
 
 </br>
 
-# 1. Aktivitätsdiagram
+# 1. UML-Aktivitätsdiagramm
 
 Ein **Aktivitätsdiagramm** (engl. Activity Diagram) ist eine Art von Verhaltensdiagramm in der **UML (Unified Modeling Language)**, das den Ablauf von Aktivitäten oder Prozessen darstellt – ähnlich wie ein Flussdiagramm, jedoch strukturierter und objektorientierter.
 
 Ein **Aktivitätsdiagramm** zeigt, welche Aktionen (Aktivitäten) in welcher Reihenfolge ausgeführt werden, wo Entscheidungen getroffen werden und wie parallele Abläufe aussehen können.
 Es wird vor allem zur Modellierung von Geschäftsprozessen, Arbeitsabläufen oder Programmabläufen verwendet.
 
-[Aktivitätsdiagram Wiki](https://de.wikipedia.org/wiki/Aktivit%C3%A4tsdiagramm)
+[Aktivitätsdiagramm Wiki](https://de.wikipedia.org/wiki/Aktivit%C3%A4tsdiagramm)
 
 ## 1.1. Grundelemente eines Aktivitätsdiagramms
 
@@ -135,7 +135,7 @@ Eine Aktion ist ein einzelner, **atomarer Schritt** innerhalb einer **Aktivität
 
 Eine **Aktivität** ist ein **komplexer Ablauf oder ein gesamter Prozess**, der sich aus mehreren Teilschritten zusammensetzt. Sie kann mehrere Aktionen enthalten und wird oft als **gesamtes Aktivitätsdiagramm** dargestellt.
 
-## 1.11. Beispiel Aktivitätsdiagram
+## 1.11. Beispiel Aktivitätsdiagramm
 
 ![Beispiel](./x_gitres/aktivitätsdiagram-beispiel.png)
 
@@ -152,7 +152,7 @@ Eine **Aktivität** ist ein **komplexer Ablauf oder ein gesamter Prozess**, der 
 
 # 2. Aufgaben
 
-## 2.1. Aufgabe Aktivitätsdiagramm entwicklen
+## 2.1. Aufgabe Aktivitätsdiagramm entwickeln
 
 | **Vorgabe**         | **Beschreibung**                                       |
 | :------------------ | :----------------------------------------------------- |
@@ -164,7 +164,7 @@ Eine **Aktivität** ist ein **komplexer Ablauf oder ein gesamter Prozess**, der 
 | **Auftrag**         | siehe unten                                            |
 | **Hilfsmittel**     |                                                        |
 | **Zeitbedarf**      | 15min                                                  |
-| **Lösungselemente** | Vollständiges Aktivitätsdiagram                        |
+| **Lösungselemente** | Vollständiges Aktivitätsdiagramm                       |
 
 Zeichne ein Aktivitätsdiagramm für folgendes Programm:
 
@@ -174,7 +174,7 @@ Zeichne ein Aktivitätsdiagramm für folgendes Programm:
 
 ---
 
-## 2.2. Aufgabe Aktivitätsdiagramm entwicklen
+## 2.2. Aufgabe Aktivitätsdiagramm entwickeln
 
 | **Vorgabe**         | **Beschreibung**                                       |
 | :------------------ | :----------------------------------------------------- |
@@ -186,7 +186,7 @@ Zeichne ein Aktivitätsdiagramm für folgendes Programm:
 | **Auftrag**         | siehe unten                                            |
 | **Hilfsmittel**     |                                                        |
 | **Zeitbedarf**      | 40min                                                  |
-| **Lösungselemente** | Vollständiges Aktivitätsdiagram                        |
+| **Lösungselemente** | Vollständiges Aktivitätsdiagramm                       |
 
 **Auftrag:**
 

@@ -45,7 +45,7 @@ einbringen können.
   - Werden im Unterricht oder per Mail angekündigt
   - Richtgrösse: 2h / Block
 - Erreichbarkeit
-  - lukas.mueller@dozent.ipso.ch innerhalb von 3 Tagen (Antwort)
+  - <lukas.mueller@dozent.ipso.ch> innerhalb von 3 Tagen (Antwort)
 
 ---
 

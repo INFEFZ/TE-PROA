@@ -3,7 +3,7 @@
 | **Elektrotechniker/-in HF** | **Programmiertechnik A** | ![IPSO Logo](./x_gitres/ipso_logo.png) |
 
 - [1. Funktionen](#1-funktionen)
-  - [1.1. Defintion](#11-defintion)
+  - [1.1. Definition](#11-definition)
   - [1.2. Diagramme](#12-diagramme)
   - [1.3. Beispiel C-Programmcode](#13-beispiel-c-programmcode)
 - [2. Aufgaben](#2-aufgaben)
@@ -14,7 +14,7 @@
 
 # 1. Funktionen
 
-## 1.1. Defintion
+## 1.1. Definition
 
 Eine Funktion ist ein **benannter Codeblock**, der eine bestimmte Aufgabe ausführt. Sie kann **Eingabewerte (Parameter)** erhalten, **intern Operationen** durchführen und ein **Ergebnis (Rückgabewert)** liefern.
 **Funktionen** bzw. **Methoden** spielen eine zentrale Rolle in der Programmierung.
@@ -54,9 +54,9 @@ Sie dienen dazu, den Code besser zu **strukturieren**, **wiederverwendbar** zu m
 
 > ![Programmablaufplan Funktion](./x_gitres/pap-funktion.png)
 
-**Aktivitätsdiagram:**
+**UML-Aktivitätsdiagramm:**
 
-> ![Aktivitätsdiagram Funktion](./x_gitres/aktivitätsdiagram-funktion.png)
+> ![UML-Aktivitätsdiagramm Funktion](./x_gitres/aktivitätsdiagram-funktion.png)
 
 ---
 
@@ -93,17 +93,17 @@ Erklärung der Bestandteile:
 
 ## 2.1. Funktion
 
-| **Vorgabe**         | **Beschreibung**                                                   |
-| :------------------ | :----------------------------------------------------------------- |
-| **Lernziele**       | Kenn die Grundelemente von Struktogramm, PAP und Aktivitätsdiagram |
-|                     | Kann Algorithmen in einem Diagramm darstellen                      |
-| **Sozialform**      | Partnerarbeit                                                      |
-| **Auftrag**         | siehe unten                                                        |
-| **Hilfsmittel**     |                                                                    |
-| **Zeitbedarf**      | 20min                                                              |
-| **Lösungselemente** | Vollständiges Diagramm                                             |
+| **Vorgabe**         | **Beschreibung**                                                     |
+| :------------------ | :------------------------------------------------------------------- |
+| **Lernziele**       | Kennt die Grundelemente von Struktogramm, PAP und Aktivitätsdiagramm |
+|                     | Kann Algorithmen in einem Diagramm darstellen                        |
+| **Sozialform**      | Partnerarbeit                                                        |
+| **Auftrag**         | siehe unten                                                          |
+| **Hilfsmittel**     |                                                                      |
+| **Zeitbedarf**      | 20min                                                                |
+| **Lösungselemente** | Vollständiges Diagramm                                               |
 
-Verpacke die Entscheidung und Ausgabe der Aufgabe Logische Verknüpfung in eine Funktion.
+Verpacke die Entscheidung und Ausgabe der Aufgabe Logische Verknüpfung in eine **Funktion**.
 
 ![Aufgabe Funktion](./x_gitres/task-function.png)
 
@@ -113,7 +113,7 @@ Verpacke die Entscheidung und Ausgabe der Aufgabe Logische Verknüpfung in eine 
 
 | **Vorgabe**         | **Beschreibung**                                        |
 | :------------------ | :------------------------------------------------------ |
-| **Lernziele**       | Kenn die Grundelemente eines Programmablaufplan         |
+| **Lernziele**       | Kennt die Grundelemente eines Programmablaufplan        |
 |                     | Kann ein Programmablaufplan entwickeln                  |
 |                     | Kann Algorithmen in einem Programmablaufplan darstellen |
 | **Sozialform**      | Einzelarbeit                                            |
@@ -124,7 +124,7 @@ Verpacke die Entscheidung und Ausgabe der Aufgabe Logische Verknüpfung in eine 
 
 a)
 
-- Entwickle ein Programmablaufplan, das eine Umbrechnung von Celsius nach Fahrenheit durchführt.
+- Entwickle ein Programmablaufplan, das eine Umrechnung von **Celsius** nach **Fahrenheit** durchführt.
 - Die Umrechnungsformel von Celsius nach Fahrenheit lautet: `F = (9 * C + 160) / 5`
   - c = Celsius, f = Fahrenheit
 
@@ -151,7 +151,7 @@ Erweitere die Aufgabe d), sodass der Wertebereich (von/bis) mit zwei Funktionspa
 
 | **Vorgabe**         | **Beschreibung**                                        |
 | :------------------ | :------------------------------------------------------ |
-| **Lernziele**       | Kenn die Grundelemente eines Programmablaufplan         |
+| **Lernziele**       | Kennt die Grundelemente eines Programmablaufplan        |
 |                     | Kann ein Programmablaufplan entwickeln                  |
 |                     | Kann Algorithmen in einem Programmablaufplan darstellen |
 | **Sozialform**      | Einzelarbeit                                            |
@@ -175,21 +175,21 @@ Dabei sind die Benutzernamen- und Passworteingaben in separate Funktionen zu gli
 
 ## 2.2. Zahl raten
 
-| **Vorgabe**         | **Beschreibung**                                                   |
-| :------------------ | :----------------------------------------------------------------- |
-| **Lernziele**       | Kenn die Grundelemente von Struktogramm, PAP und Aktivitätsdiagram |
-|                     | Kann Algorithmen in einem Diagramm darstellen                      |
-| **Sozialform**      | Einzelarbeit                                                       |
-| **Auftrag**         | siehe unten                                                        |
-| **Hilfsmittel**     |                                                                    |
-| **Zeitbedarf**      | 40min                                                              |
-| **Lösungselemente** | Vollständiges Diagramm                                             |
+| **Vorgabe**         | **Beschreibung**                                                     |
+| :------------------ | :------------------------------------------------------------------- |
+| **Lernziele**       | Kennt die Grundelemente von Struktogramm, PAP und Aktivitätsdiagramm |
+|                     | Kann Algorithmen in einem Diagramm darstellen                        |
+| **Sozialform**      | Einzelarbeit                                                         |
+| **Auftrag**         | siehe unten                                                          |
+| **Hilfsmittel**     |                                                                      |
+| **Zeitbedarf**      | 40min                                                                |
+| **Lösungselemente** | Vollständiges Diagramm                                               |
 
 a)
 Entwerfe den Algorithmus **"RateZahl"**.
 
 - Der Anwender soll eine Zahl zwischen einem minimalen und maximalen Wert raten.
-- Der Algo­rithmus wird beendet, sobald die korrekte Zahl vom Anwender eingegeben wurde. 
+- Der Algorithmus wird beendet, sobald die korrekte Zahl vom Anwender eingegeben wurde. 
 - Sofern die eingegebene Zahl kleiner oder grösser ist, wird der Anwender darauf hingewiesen.
 
 b)

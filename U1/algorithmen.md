@@ -34,7 +34,7 @@ Durch Übersetzungen wurde aus **al-Chwarizmi → Algoritmi → Algorismus → A
 
 ## 1.2. Definition
 
-Ein Algorithmus ist eine s**ystematische, logische Reihe von Anweisungen**, die es ermöglicht, ein bestimmtes Problem zu lösen. Er besteht aus klar definierten Schritten und Regeln, die bei der Ausführung zu einem vorhersehbaren Ergebnis führen. **Algorithmen** sind die Grundbausteine der Programmierung und der technischen Informatik, da sie die Basis für die Entwicklung effizienter und funktionaler Software bieten
+Ein Algorithmus ist eine **systematische, logische Reihe von Anweisungen**, die es ermöglicht, ein bestimmtes Problem zu lösen. Er besteht aus klar definierten Schritten und Regeln, die bei der Ausführung zu einem vorhersehbaren Ergebnis führen. **Algorithmen** sind die Grundbausteine der Programmierung und der technischen Informatik, da sie die Basis für die Entwicklung effizienter und funktionaler Software bieten
 
 **Algorithmen** spielen in zahlreichen Bereichen eine zentrale Rolle, z.B. in der Informatik, Mathematik, Wirtschaft und Biologie. Sie sind die Grundlage für Softwareentwicklung, künstliche Intelligenz, Datenanalyse und vieles mehr.
 
@@ -46,7 +46,7 @@ Die Lösung des Problems wird dabei durch die Festlegung von **Eingabewerten**, 
 
 Algorithmen und Programme sind **nicht** dasselbe. Ein Algorithmus ist ein abstraktes Objekt, welches
 
-- unabhängig von der Programmierspache ist, in der er geschrieben werden soll.
+- unabhängig von der Programmiersprache ist, in der er geschrieben werden soll.
 - unabhängig vom Computertyp oder der verwendeten Rechnertechnologie ist.
 
 > **Programme sind demzufolge konkrete Formulierungen abstrakter Algorithmen.**
@@ -79,7 +79,7 @@ Ein Algorithmus umfasst grundsätzlich drei Arten von Strukturen
 
 ### 1.6.1. Annehmende und Abweisende Schleife
 
-- **Annehmende (fußgesteuerte) Schleife**: Führt den Schleifenkörper mindestens einmal aus, da die Bedingung am Ende der Schleife überprüft wird (Beispiel: do-while-Schleife in C/C++).
+- **Annehmende (fussgesteuerte) Schleife**: Führt den Schleifenkörper mindestens einmal aus, da die Bedingung am Ende der Schleife überprüft wird (Beispiel: do-while-Schleife in C/C++).
 - **Abweisende (kopfgesteuerte) Schleife**: Überprüft die Bedingung vor dem Ausführen des Schleifenkörpers, was bedeutet, dass der Schleifenkörper möglicherweise nie ausgeführt wird, wenn die Bedingung von Beginn an falsch ist (Beispiel: while-Schleife in C/C++).
 
 ### 1.6.2. Mehrfachauswahl

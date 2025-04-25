@@ -35,13 +35,13 @@
 - Zweck u. Ziel
 - Übungsaufgaben
 
-## [Struktorgramm](./struktogramm.md)
+## [Struktogramm](./struktogramm.md)
 
 - Grundelemente
-- Beispeile
+- Beispiele
 - Übungsaufgaben
 
-## [Aktivitätsdiagramm](./aktivitätsdiagram.md)
+## [UML-Aktivitätsdiagramm](./aktivitätsdiagram.md)
 
 - Grundelemente
 - Beispiele
@@ -49,5 +49,5 @@
 
 ## Abschluss
 
-- Reflektion der Lernziele
+- Reflexion der Lernziele
 - Hausaufgaben

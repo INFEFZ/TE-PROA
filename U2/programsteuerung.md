@@ -3,7 +3,7 @@
 | **Elektrotechniker/-in HF** | **Programmiertechnik A** | ![IPSO Logo](./x_gitres/ipso_logo.png) |
 
 - [1. Programmsteuerung](#1-programmsteuerung)
-  - [1.1. Defintion](#11-defintion)
+  - [1.1. Definition](#11-definition)
   - [1.2. Elemente der Programmsteuerung](#12-elemente-der-programmsteuerung)
   - [1.3. Sequenz (Anweisung)](#13-sequenz-anweisung)
   - [1.4. Auswahl (Entscheidungsstrukturen)](#14-auswahl-entscheidungsstrukturen)
@@ -22,7 +22,7 @@
   - [2.6. Wiederholungen](#26-wiederholungen)
   - [2.7. Sprung](#27-sprung)
   - [2.8. Logische Verknüpfungen](#28-logische-verknüpfungen)
-  - [2.9. Schaltjar Berechnung](#29-schaltjar-berechnung)
+  - [2.9. Schaltjahr Berechnung](#29-schaltjahr-berechnung)
   - [2.10. Brauerei](#210-brauerei)
   - [2.11. Gerade Zahlen](#211-gerade-zahlen)
   - [2.12. Zins](#212-zins)
@@ -38,9 +38,9 @@
 
 # 1. Programmsteuerung
 
-## 1.1. Defintion
+## 1.1. Definition
 
-**Programmsteuerung** bezeichnet die **logische Abfolge** von **Anweisungen**, **Bedingungen**, **Schleifen** und **Verzweigungen**, durch die ein Programm kontrolliert, gesteuert und ausgeführt wird. Sie legt fest, wie das Programm auf Benutzereingaben, interne Zustände oder äußere Ereignisse reagiert und entsprechend den vordefinierten Regeln fortschreitet.
+**Programmsteuerung** bezeichnet die **logische Abfolge** von **Anweisungen**, **Bedingungen**, **Schleifen** und **Verzweigungen**, durch die ein Programm kontrolliert, gesteuert und ausgeführt wird. Sie legt fest, wie das Programm auf Benutzereingaben, interne Zustände oder äussere Ereignisse reagiert und entsprechend den vordefinierten Regeln fortschreitet.
 
 ## 1.2. Elemente der Programmsteuerung
 
@@ -62,9 +62,9 @@ Eine Sequenz ist eine **Abfolge von Anweisungen**, die nacheinander, also "der R
 
 > ![PAP-Sequenz](./x_gitres/pap-sequenz.png)
 
-**Aktivitätsdiagram:**
+**Aktivitätsdiagramm:**
 
-> ![Aktivitätsdiagram-Sequenz](./x_gitres/aktivitätsdiagram-sequenz.png)
+> ![Aktivitätsdiagramm-Sequenz](./x_gitres/aktivitätsdiagram-sequenz.png)
 
 ---
 
@@ -91,9 +91,9 @@ Sie ermöglicht es, Programme dynamisch und intelligent auf unterschiedliche Ein
 
 > ![PAP-Auswahl](./x_gitres/pap-auswahl.png)
 
-**Aktivitätsdiagram:**
+**Aktivitätsdiagramm:**
 
-> ![Aktivitätsdiagram-Auswahl](./x_gitres/aktivitätsdiagram-auswahl.png)
+> ![Aktivitätsdiagramm-Auswahl](./x_gitres/aktivitätsdiagram-auswahl.png)
 
 ### 1.4.2. Wenn-Sonst (if-else)
 
@@ -105,9 +105,9 @@ Sie ermöglicht es, Programme dynamisch und intelligent auf unterschiedliche Ein
 
 > ![PAP-Auswahl sonst](./x_gitres/pap-auswahl-sonst.png)
 
-**Aktivitätsdiagram:**
+**Aktivitätsdiagramm:**
 
-> ![Aktivitätsdiagram-Auswahl sonst](./x_gitres/aktivitätsdiagram-auswahl-sonst.png)
+> ![Aktivitätsdiagramm-Auswahl sonst](./x_gitres/aktivitätsdiagram-auswahl-sonst.png)
 
 ### 1.4.3. Mehrfachauswahl (switch case)
 
@@ -146,9 +146,9 @@ Man unterscheidet zwischen **zählergesteuerten** und **bedingungsgesteuerten Sc
 
 > ![PAP-Wiederholung](./x_gitres/pap-wiederholung.png)
 
-**Aktivitätsdiagram:**
+**Aktivitätsdiagramm:**
 
-> ![Aktivitätsdiagram-Wiederholung](./x_gitres/aktivitätsdiagram-wiederholung.png)
+> ![Aktivitätsdiagramm-Wiederholung](./x_gitres/aktivitätsdiagram-wiederholung.png)
 
 ---
 
@@ -172,9 +172,9 @@ Man unterscheidet zwischen **zählergesteuerten** und **bedingungsgesteuerten Sc
 
 > ![Struktogramm Sprung](./x_gitres/struktogramm-sprung.png)
 
-**Aktivitätsdiagram:**
+**Aktivitätsdiagramm:**
 
-> ![Aktivitätsdiagram Sprung](./x_gitres/aktivitätsdiagram-sprung.png)
+> ![Aktivitätsdiagramm Sprung](./x_gitres/aktivitätsdiagram-sprung.png)
 
 ---
 
@@ -192,9 +192,9 @@ Man unterscheidet zwischen **zählergesteuerten** und **bedingungsgesteuerten Sc
 | **`\|\|`**   | ODER (OR)   | Nur eine Bedingungen muss **wahr** sein | `wenn (Alter >= 18 \|\| Wohnort == "DE")` |
 | **`!`**      | NICHT (NOT) | Kehrt den Wahrheitswert **um**.         | `wenn (!EingabeIstLeer)`                  |
 
-**Aktivitätsdiagram:**
+**Aktivitätsdiagramm:**
 
-> ![Aktivitätsdiagram logische Verknüpfung](./x_gitres/aktivitätsdiagram-logisch.png)
+> ![Aktivitätsdiagramm logische Verknüpfung](./x_gitres/aktivitätsdiagram-logisch.png)
 
 Beispiele Diagramme: Diese werden meistens als Kombination in einer Bedingung dargestellt
 
@@ -205,16 +205,16 @@ Beispiele Diagramme: Diese werden meistens als Kombination in einer Bedingung da
 
 ## 2.1. Kleinste Zahl
 
-| **Vorgabe**         | **Beschreibung**                                  |
-| :------------------ | :------------------------------------------------ |
-| **Lernziele**       | Kenn die Grundelemente eines Flussdiagrammes      |
-|                     | Kann ein Flussdiagramm entwickeln                 |
-|                     | Kann Algorithmen in einem Flussdiagram darstellen |
-| **Sozialform**      | Einzelarbeit                                      |
-| **Auftrag**         | siehe unten                                       |
-| **Hilfsmittel**     |                                                   |
-| **Zeitbedarf**      | 20min                                             |
-| **Lösungselemente** | Vollständiges Flussdiagramm                       |
+| **Vorgabe**         | **Beschreibung**                                   |
+| :------------------ | :------------------------------------------------- |
+| **Lernziele**       | Kennt die Grundelemente eines Flussdiagramms       |
+|                     | Kann ein Flussdiagramm entwickeln                  |
+|                     | Kann Algorithmen in einem Flussdiagramm darstellen |
+| **Sozialform**      | Einzelarbeit                                       |
+| **Auftrag**         | siehe unten                                        |
+| **Hilfsmittel**     |                                                    |
+| **Zeitbedarf**      | 20min                                              |
+| **Lösungselemente** | Vollständiges Flussdiagramm                        |
 
 a)
 Schreibe ein PAP, in welchem zwei Werte eingelesen und der grössere Wert danach am Bildschirm angezeigt wird
@@ -222,16 +222,16 @@ Versuchen Sie diese Aufgabe mit **draw.io** zu lösen.
 
 ## 2.2. Auswahl
 
-| **Vorgabe**         | **Beschreibung**                                 |
-| :------------------ | :----------------------------------------------- |
-| **Lernziele**       | Kenn die Grundelemente eines Struktogrammes      |
-|                     | Kann ein Struktogramm entwickeln                 |
-|                     | Kann Algorithmen in einem Struktogram darstellen |
-| **Sozialform**      | Einzelarbeit                                     |
-| **Auftrag**         | siehe unten                                      |
-| **Hilfsmittel**     |                                                  |
-| **Zeitbedarf**      | 40min                                            |
-| **Lösungselemente** | Vollständiges Struktogram                        |
+| **Vorgabe**         | **Beschreibung**                                  |
+| :------------------ | :------------------------------------------------ |
+| **Lernziele**       | Kennt die Grundelemente eines Struktogramms       |
+|                     | Kann ein Struktogramm entwickeln                  |
+|                     | Kann Algorithmen in einem Struktogramm darstellen |
+| **Sozialform**      | Einzelarbeit                                      |
+| **Auftrag**         | siehe unten                                       |
+| **Hilfsmittel**     |                                                   |
+| **Zeitbedarf**      | 40min                                             |
+| **Lösungselemente** | Vollständiges Struktogramm                        |
 
 Zeichne ein **Flussdiagramm**, ein **Aktivitätsdiagramm** und ein **Struktogramm** für folgendes Programm:
 
@@ -244,7 +244,7 @@ Zeichne ein **Flussdiagramm**, ein **Aktivitätsdiagramm** und ein **Struktogram
 
 | **Vorgabe**         | **Beschreibung**                                  |
 | :------------------ | :------------------------------------------------ |
-| **Lernziele**       | Kenn die Grundelemente eines Strukogramms         |
+| **Lernziele**       | Kennt die Grundelemente eines Struktogramms       |
 |                     | Kann ein Struktogramm entwickeln                  |
 |                     | Kann Algorithmen in einem Struktogramm darstellen |
 | **Sozialform**      | Einzelarbeit                                      |
@@ -253,7 +253,7 @@ Zeichne ein **Flussdiagramm**, ein **Aktivitätsdiagramm** und ein **Struktogram
 | **Zeitbedarf**      | 20min                                             |
 | **Lösungselemente** | Vollständiges Struktogramm                        |
 
-- Gegeben ist die Variable `q`. Wenn `q` einen Zahlenwert grösser als 20 hat, dann soll die **Tätigkeit A** ausgeführt werden. 
+- Gegeben ist die Variable `q`. Wenn `q` einen Zahlenwert grösser als 20 hat, dann soll die **Tätigkeit A** ausgeführt werden.
 - Sonst ist die **Tätigkeit B** zu erledigen.
 
 Zeichne Sie das Struktogramm
@@ -264,7 +264,7 @@ Zeichne Sie das Struktogramm
 
 | **Vorgabe**         | **Beschreibung**                                  |
 | :------------------ | :------------------------------------------------ |
-| **Lernziele**       | Kenn die Grundelemente eines Strukogramms         |
+| **Lernziele**       | Kennt die Grundelemente eines Struktogramms       |
 |                     | Kann ein Struktogramm entwickeln                  |
 |                     | Kann Algorithmen in einem Struktogramm darstellen |
 | **Sozialform**      | Einzelarbeit                                      |
@@ -285,7 +285,7 @@ Zeichne das Struktogramm!
 
 | **Vorgabe**         | **Beschreibung**                                  |
 | :------------------ | :------------------------------------------------ |
-| **Lernziele**       | Kenn die Grundelemente eines Strukogramms         |
+| **Lernziele**       | Kennt die Grundelemente eines Struktogramms       |
 |                     | Kann ein Struktogramm entwickeln                  |
 |                     | Kann Algorithmen in einem Struktogramm darstellen |
 | **Sozialform**      | Einzelarbeit                                      |
@@ -298,21 +298,21 @@ Entwickle ein Struktogramm, das folgende Aufgabe erfüllt:
 
 - Lese drei ganze Zahlen (z.B. a, b, c) von der Tastatur ein.
 - Vergleiche die drei Zahlen miteinander.
-- Gib die größte der drei Zahlen auf dem Bildschirm aus.
+- Gib die grösste der drei Zahlen auf dem Bildschirm aus.
 
 Nach Eingabe von drei Zahlen wie z. B. `5, 12, 8` gibt das Programm: `„Die grösste Zahl ist: 12“` aus.
 
 ## 2.6. Wiederholungen
 
-| **Vorgabe**         | **Beschreibung**                                                   |
-| :------------------ | :----------------------------------------------------------------- |
-| **Lernziele**       | Kenn die Grundelemente von Struktogramm, PAP und Aktivitätsdiagram |
-|                     | Kann Algorithmen in einem Diagramm darstellen                      |
-| **Sozialform**      | Partnerarbeit                                                      |
-| **Auftrag**         | siehe unten                                                        |
-| **Hilfsmittel**     |                                                                    |
-| **Zeitbedarf**      | 20min                                                              |
-| **Lösungselemente** | Vollständiges Diagramm                                             |
+| **Vorgabe**         | **Beschreibung**                                                     |
+| :------------------ | :------------------------------------------------------------------- |
+| **Lernziele**       | Kennt die Grundelemente von Struktogramm, PAP und Aktivitätsdiagramm |
+|                     | Kann Algorithmen in einem Diagramm darstellen                        |
+| **Sozialform**      | Partnerarbeit                                                        |
+| **Auftrag**         | siehe unten                                                          |
+| **Hilfsmittel**     |                                                                      |
+| **Zeitbedarf**      | 20min                                                                |
+| **Lösungselemente** | Vollständiges Diagramm                                               |
 
 Zeichne mit einem Diagramm eurer Wahl folgendes Programm:
 
@@ -322,30 +322,30 @@ Zeichne mit einem Diagramm eurer Wahl folgendes Programm:
 
 ## 2.7. Sprung
 
-| **Vorgabe**         | **Beschreibung**                                                   |
-| :------------------ | :----------------------------------------------------------------- |
-| **Lernziele**       | Kenn die Grundelemente von Struktogramm, PAP und Aktivitätsdiagram |
-|                     | Kann Algorithmen in einem Diagramm darstellen                      |
-| **Sozialform**      | Einzelarbeit                                                       |
-| **Auftrag**         | siehe unten                                                        |
-| **Hilfsmittel**     |                                                                    |
-| **Zeitbedarf**      | 20min                                                              |
-| **Lösungselemente** | Vollständiges Diagramm                                             |
+| **Vorgabe**         | **Beschreibung**                                                     |
+| :------------------ | :------------------------------------------------------------------- |
+| **Lernziele**       | Kennt die Grundelemente von Struktogramm, PAP und Aktivitätsdiagramm |
+|                     | Kann Algorithmen in einem Diagramm darstellen                        |
+| **Sozialform**      | Einzelarbeit                                                         |
+| **Auftrag**         | siehe unten                                                          |
+| **Hilfsmittel**     |                                                                      |
+| **Zeitbedarf**      | 20min                                                                |
+| **Lösungselemente** | Vollständiges Diagramm                                               |
 
 Zeichne das Struktogramm für das Programm der Aufgabe **Wiederholung** allerdings diesmal mit einer Schleife,
 welche mit einem Spring **abbricht** sobald man die **Zahl 5** eingibt.
 
 ## 2.8. Logische Verknüpfungen
 
-| **Vorgabe**         | **Beschreibung**                                       |
-| :------------------ | :----------------------------------------------------- |
-| **Lernziele**       | Kenn die Grundelemente Aktivitätsdiagram               |
-|                     | Kann Algorithmen in einem Aktivitätsdiagram darstellen |
-| **Sozialform**      | Partnerarbeit                                          |
-| **Auftrag**         | siehe unten                                            |
-| **Hilfsmittel**     |                                                        |
-| **Zeitbedarf**      | 20min                                                  |
-| **Lösungselemente** | Vollständiges Aktivitätsdiagramm                       |
+| **Vorgabe**         | **Beschreibung**                                        |
+| :------------------ | :------------------------------------------------------ |
+| **Lernziele**       | Kennt die Grundelemente Aktivitätsdiagramm              |
+|                     | Kann Algorithmen in einem Aktivitätsdiagramm darstellen |
+| **Sozialform**      | Partnerarbeit                                           |
+| **Auftrag**         | siehe unten                                             |
+| **Hilfsmittel**     |                                                         |
+| **Zeitbedarf**      | 20min                                                   |
+| **Lösungselemente** | Vollständiges Aktivitätsdiagramm                        |
 
 Zeichne das Aktivitätsdiagramm für folgendes Programm:
 
@@ -355,47 +355,47 @@ Zeichne das Aktivitätsdiagramm für folgendes Programm:
 
 ---
 
-## 2.9. Schaltjar Berechnung
+## 2.9. Schaltjahr Berechnung
 
-| **Vorgabe**         | **Beschreibung**                                 |
-| :------------------ | :----------------------------------------------- |
-| **Lernziele**       | Kenn die Grundelemente eines Struktogrammes      |
-|                     | Kann ein Struktogramm entwickeln                 |
-|                     | Kann Algorithmen in einem Struktogram darstellen |
-| **Sozialform**      | Einzelarbeit                                     |
-| **Auftrag**         | siehe unten                                      |
-| **Hilfsmittel**     |                                                  |
-| **Zeitbedarf**      | 40min                                            |
-| **Lösungselemente** | Vollständiges Struktogram                        |
+| **Vorgabe**         | **Beschreibung**                                  |
+| :------------------ | :------------------------------------------------ |
+| **Lernziele**       | Kennt die Grundelemente eines Struktogramms       |
+|                     | Kann ein Struktogramm entwickeln                  |
+|                     | Kann Algorithmen in einem Struktogramm darstellen |
+| **Sozialform**      | Einzelarbeit                                      |
+| **Auftrag**         | siehe unten                                       |
+| **Hilfsmittel**     |                                                   |
+| **Zeitbedarf**      | 40min                                             |
+| **Lösungselemente** | Vollständiges Struktogramm                        |
 
 Weil die astronomische Dauer eines Jahres (wenn die Erde die Sonne einmal umrundet hat) etwas länger ist als 365 Tage, wurden Schaltjahre zum Ausgleich eingefügt.
-Erstellen Sie ein Struktogram für ein Programm, welches prüft, ob eine eingegebene Jahresziffer ein Schaltjahr ist oder nicht und anschliessende eine entsprechende Antwort ausgibt.
+Erstellen Sie ein Struktogramm für ein Programm, welches prüft, ob eine eingegebene Jahresziffer ein Schaltjahr ist oder nicht und anschliessende eine entsprechende Antwort ausgibt.
 
 - Ein Schaltjahr ist ein Jahr, welches eine Jahreszahl hat, die durch **4 teilbar** ist.
 - Jahreszahlen, die durch **100 teilbar** sind, sind allerdings **keine Schaltjahre**. Es sei denn, die Jahreszahl ist durch **400 teilbar**.
 
 ## 2.10. Brauerei
 
-| **Vorgabe**         | **Beschreibung**                                 |
-| :------------------ | :----------------------------------------------- |
-| **Lernziele**       | Kenn die Grundelemente eines Struktogrammes      |
-|                     | Kann ein Struktogramm entwickeln                 |
-|                     | Kann Algorithmen in einem Struktogram darstellen |
-| **Sozialform**      | Einzelarbeit                                     |
-| **Auftrag**         | siehe unten                                      |
-| **Hilfsmittel**     |                                                  |
-| **Zeitbedarf**      | 40min                                            |
-| **Lösungselemente** | Vollständiges Struktogram                        |
+| **Vorgabe**         | **Beschreibung**                                  |
+| :------------------ | :------------------------------------------------ |
+| **Lernziele**       | Kennt die Grundelemente eines Struktogramms       |
+|                     | Kann ein Struktogramm entwickeln                  |
+|                     | Kann Algorithmen in einem Struktogramm darstellen |
+| **Sozialform**      | Einzelarbeit                                      |
+| **Auftrag**         | siehe unten                                       |
+| **Hilfsmittel**     |                                                   |
+| **Zeitbedarf**      | 40min                                             |
+| **Lösungselemente** | Vollständiges Struktogramm                        |
 
 - Eine Brauerei gewährt ihren Kunden bei Mindestabnahme von 10 Kästen 5%, bei Mindestabnahme von 50 Kästen 7% und bei Mindestabnahme von 100 Kästen 10% Rabatt.
-- Diese Regelung soll durch einen Programmbaustein, z. B. bei der Fakturierung, automatisch berücksichtig werden.
+- Diese Regelung soll durch einen Programmbaustein, z.B. bei der Fakturierung, automatisch berücksichtigt werden.
 - Kontrollieren Sie die gegebenen Struktogramme daraufhin, ob sie die gegebene Regelung logisch richtig umsetzen.
 
 ## 2.11. Gerade Zahlen
 
 | **Vorgabe**         | **Beschreibung**                                            |
 | :------------------ | :---------------------------------------------------------- |
-| **Lernziele**       | Kenn die Grundelemente eines UML-Aktivitätsdiagramm         |
+| **Lernziele**       | Kennt die Grundelemente eines UML-Aktivitätsdiagramm        |
 |                     | Kann ein UML-Aktivitätsdiagramm entwickeln                  |
 |                     | Kann Algorithmen in einem UML-Aktivitätsdiagramm darstellen |
 | **Sozialform**      | Einzelarbeit                                                |
@@ -411,31 +411,31 @@ Erstellen Sie ein Struktogram für ein Programm, welches prüft, ob eine eingege
 
 ## 2.12. Zins
 
-| **Vorgabe**         | **Beschreibung**                                 |
-| :------------------ | :----------------------------------------------- |
-| **Lernziele**       | Kenn die Grundelemente eines Struktogrammes      |
-|                     | Kann ein Struktogramm entwickeln                 |
-|                     | Kann Algorithmen in einem Struktogram darstellen |
-| **Sozialform**      | Einzelarbeit                                     |
-| **Auftrag**         | siehe unten                                      |
-| **Hilfsmittel**     |                                                  |
-| **Zeitbedarf**      | 40min                                            |
-| **Lösungselemente** | Vollständiges Struktogram                        |
+| **Vorgabe**         | **Beschreibung**                                  |
+| :------------------ | :------------------------------------------------ |
+| **Lernziele**       | Kennt die Grundelemente eines Struktogramms       |
+|                     | Kann ein Struktogramm entwickeln                  |
+|                     | Kann Algorithmen in einem Struktogramm darstellen |
+| **Sozialform**      | Einzelarbeit                                      |
+| **Auftrag**         | siehe unten                                       |
+| **Hilfsmittel**     |                                                   |
+| **Zeitbedarf**      | 40min                                             |
+| **Lösungselemente** | Vollständiges Struktogramm                        |
 
-Lena hat zur Konfirmation 380 CHF erhalten, sie bringt das Geld zur Bank. Nach wieviel Jahren hat sich ihr Guthaben verdoppelt, wenn die Bank jährlich einen Zinssatz von 4,5% zahlt. Zeichne auch hier ein Struktogramm zu deiner Lösung.
+Lena hat zur Konfirmation 380 CHF erhalten, sie bringt das Geld zur Bank. Nach wie viel Jahren hat sich ihr Guthaben verdoppelt, wenn die Bank jährlich einen Zinssatz von 4,5% zahlt. Zeichne auch hier ein Struktogramm zu deiner Lösung.
 
 ## 2.13. Benutzeranmeldung
 
-| **Vorgabe**         | **Beschreibung**                                       |
-| :------------------ | :----------------------------------------------------- |
-| **Lernziele**       | Kenn die Grundelemente eines Aktivtätsdiagrammes       |
-|                     | Kann ein Aktivätsdiagram entwickeln                    |
-|                     | Kann Algorithmen in einem Aktivitätsdiagram darstellen |
-| **Sozialform**      | Einzelarbeit                                           |
-| **Auftrag**         | siehe unten                                            |
-| **Hilfsmittel**     |                                                        |
-| **Zeitbedarf**      | 40min                                                  |
-| **Lösungselemente** | Vollständiges UML-Aktivitätsdiagramm                   |
+| **Vorgabe**         | **Beschreibung**                                        |
+| :------------------ | :------------------------------------------------------ |
+| **Lernziele**       | Kennt die Grundelemente eines Aktivitätsdiagramm        |
+|                     | Kann ein Aktivitätsdiagramm entwickeln                  |
+|                     | Kann Algorithmen in einem Aktivitätsdiagramm darstellen |
+| **Sozialform**      | Einzelarbeit                                            |
+| **Auftrag**         | siehe unten                                             |
+| **Hilfsmittel**     |                                                         |
+| **Zeitbedarf**      | 40min                                                   |
+| **Lösungselemente** | Vollständiges UML-Aktivitätsdiagramm                    |
 
 In einer Benutzeranmeldung (Login) mit Benutzername u. Passwort muss folgender Ablauf programmiert werden:
 
@@ -449,16 +449,16 @@ Erstellen Sie für den obigen Vorgang ein UML-Aktivitätsdiagramm
 
 ## 2.14. Kleinste Zahl
 
-| **Vorgabe**         | **Beschreibung**                                  |
-| :------------------ | :------------------------------------------------ |
-| **Lernziele**       | Kenn die Grundelemente eines Flussdiagrammes      |
-|                     | Kann ein Flussdiagramm entwickeln                 |
-|                     | Kann Algorithmen in einem Flussdiagram darstellen |
-| **Sozialform**      | Einzelarbeit                                      |
-| **Auftrag**         | siehe unten                                       |
-| **Hilfsmittel**     |                                                   |
-| **Zeitbedarf**      | 40min                                             |
-| **Lösungselemente** | Vollständiges Flowgorithm                         |
+| **Vorgabe**         | **Beschreibung**                                   |
+| :------------------ | :------------------------------------------------- |
+| **Lernziele**       | Kennt die Grundelemente eines Flussdiagramms       |
+|                     | Kann ein Flussdiagramm entwickeln                  |
+|                     | Kann Algorithmen in einem Flussdiagramm darstellen |
+| **Sozialform**      | Einzelarbeit                                       |
+| **Auftrag**         | siehe unten                                        |
+| **Hilfsmittel**     |                                                    |
+| **Zeitbedarf**      | 40min                                              |
+| **Lösungselemente** | Vollständiges Flowgorithm                          |
 
 Erstellen Sie einen PAP, der drei eingelesene Zahlen vergleicht und das Minimum ausgibt.
 Versuchen Sie diese Aufgabe mit **Flowgorithm** zu lösen
@@ -467,7 +467,7 @@ Versuchen Sie diese Aufgabe mit **Flowgorithm** zu lösen
 
 | **Vorgabe**         | **Beschreibung**                                        |
 | :------------------ | :------------------------------------------------------ |
-| **Lernziele**       | Kenn die Grundelemente eines Programmablaufplan         |
+| **Lernziele**       | Kennt die Grundelemente eines Programmablaufplan        |
 |                     | Kann ein Programmablaufplan entwickeln                  |
 |                     | Kann Algorithmen in einem Programmablaufplan darstellen |
 | **Sozialform**      | Einzelarbeit                                            |
@@ -482,7 +482,7 @@ Schreiben Sie in Flowgorithm ein Programmablaufplan (PAP), das nach einem Rechnu
 
 | **Vorgabe**         | **Beschreibung**                                        |
 | :------------------ | :------------------------------------------------------ |
-| **Lernziele**       | Kenn die Grundelemente eines Programmablaufplan         |
+| **Lernziele**       | Kennt die Grundelemente eines Programmablaufplans       |
 |                     | Kann ein Programmablaufplan entwickeln                  |
 |                     | Kann Algorithmen in einem Programmablaufplan darstellen |
 | **Sozialform**      | Einzelarbeit                                            |
@@ -500,7 +500,7 @@ Schreiben sie ein kleines Taschenrechnerprogramm (PAP) das zwei Zahlen zusammenz
 
 | **Vorgabe**         | **Beschreibung**                                        |
 | :------------------ | :------------------------------------------------------ |
-| **Lernziele**       | Kenn die Grundelemente eines Programmablaufplan         |
+| **Lernziele**       | Kennt die Grundelemente eines Programmablaufplans       |
 |                     | Kann ein Programmablaufplan entwickeln                  |
 |                     | Kann Algorithmen in einem Programmablaufplan darstellen |
 | **Sozialform**      | Einzelarbeit                                            |
@@ -515,7 +515,7 @@ Schreiben Sie ein Programm (PAP), das nach einem Radius eines Kreises fragt und 
 
 | **Vorgabe**         | **Beschreibung**                                        |
 | :------------------ | :------------------------------------------------------ |
-| **Lernziele**       | Kenn die Grundelemente eines Programmablaufplans        |
+| **Lernziele**       | Kennt die Grundelemente eines Programmablaufplans       |
 |                     | Kann ein Programmablaufplan entwickeln                  |
 |                     | Kann Algorithmen in einem Programmablaufplan darstellen |
 | **Sozialform**      | Einzelarbeit                                            |
@@ -533,42 +533,11 @@ Schreiben Sie ein Programm (PAP), das nach einem Radius eines Kreises fragt und 
 
 **Anforderungen:**
 
-- Verwende eine kopfgesteuerte Schleife mit der Bedingung zaehler <= 3.
+- Verwende eine kopfgesteuerte Schleife mit der Bedingung `zaehler <= 3`.
 - Baue eine Benutzereingabe zur Passwortabfrage ein.
 - Füge eine Verzweigung ein, die prüft, ob das Passwort korrekt ist.
 - Bei richtiger Eingabe soll eine Meldung ausgegeben und die Schleife sofort beendet werden (break).
 - Bei falscher Eingabe wird der Zähler erhöht und der nächste Schleifendurchlauf beginnt.
-- [1. Programmsteuerung](#1-programmsteuerung)
-  - [1.1. Defintion](#11-defintion)
-  - [1.2. Elemente der Programmsteuerung](#12-elemente-der-programmsteuerung)
-  - [1.3. Sequenz (Anweisung)](#13-sequenz-anweisung)
-  - [1.4. Auswahl (Entscheidungsstrukturen)](#14-auswahl-entscheidungsstrukturen)
-    - [1.4.1. Wenn (if)](#141-wenn-if)
-    - [1.4.2. Wenn-Sonst (if-else)](#142-wenn-sonst-if-else)
-    - [1.4.3. Mehrfachauswahl (switch case)](#143-mehrfachauswahl-switch-case)
-  - [1.5. Wiederholungen (Schleifen)](#15-wiederholungen-schleifen)
-  - [1.6. Sprung (GoTo)](#16-sprung-goto)
-  - [1.7. Logische Verknüpfungen](#17-logische-verknüpfungen)
-- [2. Aufgaben](#2-aufgaben)
-  - [2.1. Kleinste Zahl](#21-kleinste-zahl)
-  - [2.2. Auswahl](#22-auswahl)
-  - [2.3. Verzweigung (Auswahl)](#23-verzweigung-auswahl)
-  - [2.4. Mehrfachauswahl](#24-mehrfachauswahl)
-  - [2.5. Grösste Zahl ermitteln](#25-grösste-zahl-ermitteln)
-  - [2.6. Wiederholungen](#26-wiederholungen)
-  - [2.7. Sprung](#27-sprung)
-  - [2.8. Logische Verknüpfungen](#28-logische-verknüpfungen)
-  - [2.9. Schaltjar Berechnung](#29-schaltjar-berechnung)
-  - [2.10. Brauerei](#210-brauerei)
-  - [2.11. Gerade Zahlen](#211-gerade-zahlen)
-  - [2.12. Zins](#212-zins)
-  - [2.13. Benutzeranmeldung](#213-benutzeranmeldung)
-  - [2.14. Kleinste Zahl](#214-kleinste-zahl)
-  - [2.15. Mehrwertsteuer](#215-mehrwertsteuer)
-  - [2.16. Taschenrechner](#216-taschenrechner)
-  - [2.17. Kreisfläche berechnen](#217-kreisfläche-berechnen)
-  - [2.18. Passworteingabe](#218-passworteingabe)
-  - [2.3. Aufgabe Ampelsteuerung](#23-aufgabe-ampelsteuerung)
 
 ---
 
