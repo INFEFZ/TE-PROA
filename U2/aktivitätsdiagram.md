@@ -16,7 +16,8 @@
   - [1.9. Ablauf-Elemente - Iteration](#19-ablauf-elemente---iteration)
   - [1.10. Aktivität](#110-aktivität)
   - [1.11. Beispiel Aktivitätsdiagramm](#111-beispiel-aktivitätsdiagramm)
-  - [1.12. Wozu Aktivitätsdiagramms](#112-wozu-aktivitätsdiagramms)
+  - [1.12. Entwurf von Programmen (E-Book)](#112-entwurf-von-programmen-e-book)
+  - [1.13. Wozu Aktivitätsdiagramms](#113-wozu-aktivitätsdiagramms)
 - [2. Aufgaben](#2-aufgaben)
   - [2.1. Aufgabe Aktivitätsdiagramm entwickeln](#21-aufgabe-aktivitätsdiagramm-entwickeln)
   - [2.2. Aufgabe Aktivitätsdiagramm entwickeln](#22-aufgabe-aktivitätsdiagramm-entwickeln)
@@ -139,7 +140,11 @@ Eine **Aktivität** ist ein **komplexer Ablauf oder ein gesamter Prozess**, der 
 
 ![Beispiel](./x_gitres/aktivitätsdiagram-beispiel.png)
 
-## 1.12. Wozu Aktivitätsdiagramms
+## 1.12. Entwurf von Programmen (E-Book)
+
+![E-Book Aktivitätsdiagram](./x_gitres/k03-entwurf-von-progammen-aktivitätsdiagram.pdf)
+
+## 1.13. Wozu Aktivitätsdiagramms
 
 - Klar strukturierter Ablauf
 - Darstellung von Verzweigungen und Parallelität

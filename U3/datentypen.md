@@ -41,7 +41,7 @@ Diese Datentypen bilden die Basis, auf der komplexere Datenstrukturen (wie Liste
 - **Ganzzahlen (Integer / int)**
   - Speichern ganze Zahlen (positiv, negativ, null).
   - Beispielwerte: `-7, 0, 42, 2025`
-  - Speicherbedarf: Abhängig von der Sprache (z. B. 8, 16, 32 oder 64 Bit).
+  - Speicherbedarf: Abhängig von der Sprache (z.B. 8, 16, 32 oder 64 Bit).
   - Verwendung: Zählen, Indizieren von Arrays, Schleifen.
 - **Gleitkommazahlen (Float / Double)**
   - Speichern Dezimalzahlen mit Komma.
@@ -120,7 +120,7 @@ Diese Datentypen bilden die Basis, auf der komplexere Datenstrukturen (wie Liste
 
 - Ablegen mehrerer Datenobjekte vom gleichen Typ.
 - Sammlung von Elementen mit fester Grösse.
-- Jedes Element hat einen Index (z. B. array[0]).
+- Jedes Element hat einen Index (z.B. array[0]).
 - Schneller direkter Zugriff über numerischen Index.
 - Vorteil: Schneller Zugriff.
 - Nachteil: Feste Grösse.

@@ -41,12 +41,6 @@
 - Beispiele
 - Übungsaufgaben
 
-## [UML-Aktivitätsdiagramm](./aktivitätsdiagram.md)
-
-- Grundelemente
-- Beispiele
-- Übungsaufgaben
-
 ## Abschluss
 
 - Reflexion der Lernziele

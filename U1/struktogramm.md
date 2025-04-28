@@ -20,12 +20,14 @@
     - [1.6.3. Spezialform (Zählschleife)](#163-spezialform-zählschleife)
   - [1.7. Prozedur Aufruf (Unterprogramm)](#17-prozedur-aufruf-unterprogramm)
     - [1.7.1. Beispiel](#171-beispiel)
-  - [1.8. Zusammenfassung](#18-zusammenfassung)
-  - [1.9. Beispiele](#19-beispiele)
-    - [1.9.1. Aufgabe lösen](#191-aufgabe-lösen)
-    - [1.9.2. Fakultät](#192-fakultät)
+  - [1.8. Entwurf von Programmen (E-Book)](#18-entwurf-von-programmen-e-book)
+  - [1.9. Zusammenfassung](#19-zusammenfassung)
+  - [1.10. Beispiele](#110-beispiele)
+    - [1.10.1. Aufgabe lösen](#1101-aufgabe-lösen)
+    - [1.10.2. Fakultät](#1102-fakultät)
 - [2. Aufgaben](#2-aufgaben)
   - [2.1. Zahl auswerten](#21-zahl-auswerten)
+
 
 ---
 
@@ -176,7 +178,13 @@ Nach deren Durchlauf wird zu der aufrufenden Stelle zurückgesprungen und der n�
 
 ---
 
-## 1.8. Zusammenfassung
+## 1.8. Entwurf von Programmen (E-Book)
+
+![E-Book Struktogramm](./x_gitres/k03-entwurf-von-progammen-struktogramm.pdf)
+
+---
+
+## 1.9. Zusammenfassung
 
 Komplexe Abläufe werden durch Schachtelung von Kontrollstrukturen beschrieben
 
@@ -190,13 +198,13 @@ Komplexe Abläufe werden durch Schachtelung von Kontrollstrukturen beschrieben
 
 ---
 
-## 1.9. Beispiele
+## 1.10. Beispiele
 
-### 1.9.1. Aufgabe lösen
+### 1.10.1. Aufgabe lösen
 
 ![Beispiel Aufgabe lösen](./x_gitres/struktogramm-beispiel-aufgabe-lösen.png)
 
-### 1.9.2. Fakultät
+### 1.10.2. Fakultät
 
 ![Beispiel Fakultät](./x_gitres/struktogramm-beispiel-fakultät.png)
 
