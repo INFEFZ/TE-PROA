@@ -189,7 +189,7 @@ a)
 Entwerfe den Algorithmus **"RateZahl"**.
 
 - Der Anwender soll eine Zahl zwischen einem minimalen und maximalen Wert raten.
-- Der Algorithmus wird beendet, sobald die korrekte Zahl vom Anwender eingegeben wurde. 
+- Der Algorithmus wird beendet, sobald die korrekte Zahl vom Anwender eingegeben wurde.
 - Sofern die eingegebene Zahl kleiner oder grösser ist, wird der Anwender darauf hingewiesen.
 
 b)

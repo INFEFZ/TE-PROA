@@ -2,35 +2,53 @@
 | --------------------------- | ------------------------ | -------------------------------------- |
 | **Elektrotechniker/-in HF** | **Programmiertechnik A** | ![IPSO Logo](./x_gitres/ipso_logo.png) |
 
+- [1. Die Programmiersprache C](#1-die-programmiersprache-c)
+  - [1.1. Entstehung von C](#11-entstehung-von-c)
+  - [1.2. Einsatzgebiete](#12-einsatzgebiete)
+  - [1.3. Standardisierung](#13-standardisierung)
+  - [1.4. Basiskomponenten der C-Programmiersprache](#14-basiskomponenten-der-c-programmiersprache)
+  - [1.5. Werkzeuge](#15-werkzeuge)
+  - [Aufgbau eines C-Programmes / Syntax](#aufgbau-eines-c-programmes--syntax)
+  - [Präprozessor (#Include, \*.h-Dateien)](#präprozessor-include-h-dateien)
+  - [Standard Library, Compiler, Linker](#standard-library-compiler-linker)
+  - [Bibliotheksfunktionen und Präprozessor-Anweisungen](#bibliotheksfunktionen-und-präprozessor-anweisungen)
+  - [1.6. Das Hello World Programm](#16-das-hello-world-programm)
+  - [Schritte von Quellcodedateien zum lauffähigen Programm](#schritte-von-quellcodedateien-zum-lauffähigen-programm)
+  - [Compilerfehler vs. Linkerfehler](#compilerfehler-vs-linkerfehler)
+- [2. Aufgaben](#2-aufgaben)
+  - [2.1. E-Book, Kapitel 1 - Einführung in die Programmiersprache C](#21-e-book-kapitel-1---einführung-in-die-programmiersprache-c)
+  - [2.1. Entwicklungswerkzeuge](#21-entwicklungswerkzeuge)
+  - [2.1. Hello World Programm](#21-hello-world-programm)
 
-# Die Programmiersprache C
+---
 
-## Entstehung von C
+# 1. Die Programmiersprache C
+
+## 1.1. Entstehung von C
 
 - Die Programmiersprache C wurde Anfang der 1970er Jahre von **Dennis Ritchie** am **Bell Telephone Laboratories (heute Bell Labs)** entwickelt.
-- - Ihr Ursprung liegt in der Arbeit an dem Betriebssystem **UNIX**, das ursprünglich in der Assemblersprache geschrieben war. 
+- - Ihr Ursprung liegt in der Arbeit an dem Betriebssystem **UNIX**, das ursprünglich in der Assemblersprache geschrieben war.
 - Die Entwickler suchten eine **effizientere**, aber dennoch maschinennahe Sprache, die sowohl **leistungsstark** als auch **portabel** war.
 
 Zusammenfassung der Merkmale:
 
 - Hohe Sprachexpressivität
 - Sprachkonstrukte wie while, if etc.
-- Sprechende Bezeichner (Variablen) 
+- Sprechende Bezeichner (Variablen)
 - Effizientäre Programmierung einfachere Fehlersuche
 - Portable und maschinenunabhängig
 
-- **C** wurde in den **1970er** und **1980er** Jahren extrem populär, insbesondere durch die Veröffentlichung des Buches "The C Programming Language" (1978) von **Brian W. Kernighan** und **Dennis M. Ritchie** – oft einfach als **"K&R C"** bezeichnet. 
+- **C** wurde in den **1970er** und **1980er** Jahren extrem populär, insbesondere durch die Veröffentlichung des Buches "The C Programming Language" (1978) von **Brian W. Kernighan** und **Dennis M. Ritchie** – oft einfach als **"K&R C"** bezeichnet.
 - Dieses Buch setzte Massstäbe und prägte die frühe C-Programmierung massgeblich.
 
 ![Programmieren in C](./x_gitres/kernighan-ritchie-programmieren-in-c.jpg)
 
 Später wurde C durch den **ANSI-Standard (ANSI C)** 1989 offiziell standardisiert, was ihre Definition und Kompatibilität zwischen verschiedenen Compilern sicherte.
 
+## 1.2. Einsatzgebiete
 
-## Einsatzgebiete 
-
-- Von Anfang an war das Haupteinsatzgebiet von C die **Systemprogrammierung**. 
-- Es kommt bei den zu entwickelnden Programmen besonders auf **Geschwindigkeit** und einen **kompakten Programmcode** an. 
+- Von Anfang an war das Haupteinsatzgebiet von C die **Systemprogrammierung**.
+- Es kommt bei den zu entwickelnden Programmen besonders auf **Geschwindigkeit** und einen **kompakten Programmcode** an.
 - Ausserdem soll die **Hardware** besonders effektiv angesprochen werden können
 
 Einsatzbereiche:
@@ -42,7 +60,7 @@ Einsatzbereiche:
 - Auto
 - etc.
 
-## Standardisierung
+## 1.3. Standardisierung
 
 | **Standard** | **Bemerkung**                                                                                                                                                                                                                                                                                          |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -53,7 +71,7 @@ Einsatzbereiche:
 | **C99**      | Über die Jahre wurden einige häufig vermisste Sprachkonstrukte und Schreibweisen anderer Sprachen hinzugefügt wie der </br> Datentyp _Bool, der einzeilige C++- Zeilenkommentator "//" oder die Möglichkeit, Variablen direkt in einer for-Schleife zu definieren.                                     |
 | **C11**      | Ende 2011 wurde der aktuelle C11-Standard verabschiedet. </br> Er enthält Korrekturen der Vorversion und Neuerungen wie beispielsweise Unterstützung von Multithreading, neue Datentypen und generische Ausdrücke.                                                                                     |
 
-## Basiskomponenten der C-Programmiersprache
+## 1.4. Basiskomponenten der C-Programmiersprache
 
 | **Komponenten**          | **Syntax**                        | **Beschreibung**                                                                                                                                                                                                                                                                                 |
 | ------------------------ | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -63,7 +81,7 @@ Einsatzbereiche:
 | **Funktionen**           | **`void test()`** </br> **`{ }`** | **Funktion**, welche immer wieder verwendet werden können                                                                                                                                                                                                                                        |
 | **Bibliotheksfuntionen** | **`printf("Hallo")`**             | Funktionen der **Standardlibrary** ANSI-C                                                                                                                                                                                                                                                        |
 
-## Werkzeuge
+## 1.5. Werkzeuge
 
 | **Werkzeuge** | **Beschreibung**                                                                                                                                                                                                                      |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -74,8 +92,31 @@ Einsatzbereiche:
 
 ![Werkzeuge zur Programmerstellung](./x_gitres/programmerzeugung.png)
 
+## Aufgbau eines C-Programmes / Syntax
 
-## Das Hello World Programm
+- Ein C-Programm besteht aus mehreren Komponenten, die zusammen die Grundlage für die Ausführung des Programms bilden.
+- Die Struktur eines solchen Programms beinhaltet **Präprozessoranweisungen**, **Funktionen**, **Variablendeklarationen** und -**definitionen** sowie **Kommentare**, die den Code lesbar und wartbar machen.
+
+## Präprozessor (#Include, *.h-Dateien)
+
+- `#Include`: Eine **Präprozessoranweisung**, die verwendet wird, um Header-Dateien in ein C-Programm einzufügen.
+- Diese Header-Dateien enthalten Deklarationen von Funktionen und Makros, die im Programm verwendet werden können. Beispiel: `#include <stdio.h>` fügt die Standard-Input-Output-Bibliothek hinzu, die Funktionen wie `printf` und `scanf` enthält.
+- .h-Dateien: Header-Dateien mit der Erweiterung `.h` enthalten Deklarationen von Funktionen, Makros und manchmal Typdefinitionen, die in verschiedenen Teilen des Programms oder in verschiedenen Programmen wiederverwendet werden können.
+
+## Standard Library, Compiler, Linker
+
+- Standard Library: Eine Sammlung vordefinierter Funktionen, die verschiedene Aufgaben wie Ein-/Ausgabeoperationen, Stringmanipulation, mathematische Berechnungen und mehr unterstützen.
+- Compiler: Ein Programm, das den Quellcode eines C-Programms in Maschinensprache (Binärcode) übersetzt, die vom Computer direkt ausgeführt werden kann.
+- Linker: Ein Werkzeug, das mehrere Objektdateien, die vom Compiler erzeugt wurden, zu einer einzigen ausführbaren Datei zusammenfügt und dabei sicherstellt, dass alle Referenzen zwischen den Dateien korrekt aufgelöst werden.
+
+## Bibliotheksfunktionen und Präprozessor-Anweisungen
+
+- Bibliotheksfunktionen (Standard Library): C bietet eine umfangreiche Standardbibliothek mit Funktionen für verschiedenste Aufgaben (z.B. `printf`, `scanf`, `strcpy`, `malloc`).
+- Präprozessor-Anweisungen:  
+  - `#include`: Bindet den Inhalt einer Header-Datei ein.
+  - `#define`: Definiert Makros oder Konstanten.
+
+## 1.6. Das Hello World Programm
 
 ```c
 #include <stdio.h>  // Präprozessoranweisung: stdio.h wird inkludiert. Enhält Ein- und Ausgabefunktionen, wie scanf u. printf
@@ -85,3 +126,86 @@ void main(void)     // Einstiegspunkt: main-Funktion. Wird beim Programmstart au
   printf("Hello World\n");  // Funktion printf von der Standardlibrary (Ausgabe auf Konsole)
 }
 ```
+
+## Schritte von Quellcodedateien zum lauffähigen Programm
+
+1. **Schreiben des Quellcodes**: Der Entwickler schreibt den Quellcode in einer oder mehreren Dateien, typischerweise in einer Entwicklungsumgebung.
+2. **Präprozessierung**: Präprozessor-Anweisungen wie `#include` und `#define` werden aufgelöst. Zum Beispiel werden Inhalte von Header-Dateien in den Quellcode eingefügt.
+3. **Kompilierung**: Der Compiler übersetzt den Quellcode in Objektcode (Maschinencode, der noch externe Referenzen enthalten kann).
+4. **Linking**: Der Linker kombiniert Objektcode aus verschiedenen Quellen, löst Referenzen auf und erzeugt eine ausführbare Datei.
+5. **Ausführung**: Das fertige Programm kann vom Benutzer gestartet und genutzt werden.
+
+## Compilerfehler vs. Linkerfehler
+
+- **Compilerfehler**: Tritt auf, wenn der Compiler auf Probleme im **Quellcode** stößt, die ihn am erfolgreichen Kompilieren hindern. Beispiele hierfür sind **Syntaxfehler**, **Typkonflikte** oder n**icht deklarierte Variablen**.
+- **Linkerfehler**: Tritt auf, wenn der Linker nicht alle **Referenzen** zwischen den Objektdateien auflösen kann, z.B. wenn eine Funktion aufgerufen wird, die nirgendwo definiert ist.
+
+---
+
+</br>
+
+# 2. Aufgaben
+
+## 2.1. E-Book, Kapitel 1 - Einführung in die Programmiersprache C
+
+| **Vorgabe**         | **Beschreibung**                                                             |
+| :------------------ | :--------------------------------------------------------------------------- |
+| **Lernziele**       | Syntax u. Sematik eines C-Programmes sind bekannt                            |
+|                     | Kennen die Schritte und Werkzeuge zur Programmerstellung                     |
+|                     | Können die Basiselemente/Konstrukte in einem Hello Word C-Programm erläutern |
+| **Sozialform**      | Einzelarbeit                                                                 |
+| **Auftrag**         | siehe unten                                                                  |
+| **Hilfsmittel**     |                                                                              |
+| **Zeitbedarf**      | 15min                                                                        |
+| **Lösungselemente** | Fragekatalog                                                                 |
+
+- Lese im offiziellen Buch [C als erste Progammiersprache](./x_gitres/k01-Einführung-in-die-Programmiersprache-C.pdf) das Kapitel 1
+- Erstelle zu Unklarheiten einen Fragekatalog, sodass wir die Fragen im Anschluss klären können.
+
+---
+
+## 2.1. Entwicklungswerkzeuge
+
+| **Vorgabe**         | **Beschreibung**                                                               |
+| :------------------ | :----------------------------------------------------------------------------- |
+| **Lernziele**       | Können die wichtigsten Entwicklungswerkzeuge zur Programmentwicklung erläutern |
+|                     | Können konkrete Einsatzbereiche der Entwicklungswerkzeuge benennen             |
+| **Sozialform**      | Teamarbeit mit max. Grösse von 3-4 Personen                                    |
+| **Auftrag**         | siehe unten                                                                    |
+| **Hilfsmittel**     |                                                                                |
+| **Zeitbedarf**      | Arbeit 30min, Präsentation max. 10min                                          |
+| **Lösungselemente** | Präsentation (PowerPoint oder Markdown)                                        |
+
+- Identifiziere alle wichtigen Informationen und Anwendungen zu den nachfolgend aufgeführten Entwicklungswerkzeugen gemäss der Zuteilung.
+  - Editor / IDE
+  - Compiler
+  - Linker
+  - Debugger
+  
+- Fasse die Punkte mittels konkreten Anwendungsbeispielen oder Grafiken zusammen.
+- Stelle die Ergebnisse mittels einer Kurzpräsentation der Klasse vor.
+- Verwende dabei die Hilfsmittel wie Flow-Charts, Video Beamer, Wandtafel usw. und verweisen Sie ggf. auf weitere die Literatur.
+- Die Zusammenfassungen sind dann den anderen Klassenkameraden zur Verfügung zu stellen.
+
+---
+
+## 2.1. Hello World Programm
+
+| **Vorgabe**         | **Beschreibung**                                                       |
+| :------------------ | :--------------------------------------------------------------------- |
+| **Lernziele**       | Können ein kleines C-Programm (Hello Word) programmieren und ausführen |
+|                     | Können die Entwicklungswerkzeuge korrekt einsetzen                     |
+| **Sozialform**      | Einzelarbeit                                                           |
+| **Auftrag**         | siehe unten                                                            |
+| **Hilfsmittel**     |                                                                        |
+| **Zeitbedarf**      | 20min                                                                  |
+| **Lösungselemente** | Lauffähiges C-Programm                                                 |
+
+a)
+
+- Erstelle auf GitHub Codespace das obige Hello World Programm
+- Führe das Programm aus und prüfen die Terminalausgabe
+
+b)
+
+- Versuche das Progamm auch lokal mit Visual Studio Code umzusetzen

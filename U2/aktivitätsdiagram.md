@@ -19,8 +19,9 @@
   - [1.12. Entwurf von Programmen (E-Book)](#112-entwurf-von-programmen-e-book)
   - [1.13. Wozu Aktivitätsdiagramms](#113-wozu-aktivitätsdiagramms)
 - [2. Aufgaben](#2-aufgaben)
-  - [2.1. Aufgabe Aktivitätsdiagramm entwickeln](#21-aufgabe-aktivitätsdiagramm-entwickeln)
+  - [2.1. Kurzrecherche UML (Unified Modeling Language)](#21-kurzrecherche-uml-unified-modeling-language)
   - [2.2. Aufgabe Aktivitätsdiagramm entwickeln](#22-aufgabe-aktivitätsdiagramm-entwickeln)
+  - [2.3. Aufgabe Aktivitätsdiagramm entwickeln](#23-aufgabe-aktivitätsdiagramm-entwickeln)
 
 ---
 
@@ -157,7 +158,31 @@ Eine **Aktivität** ist ein **komplexer Ablauf oder ein gesamter Prozess**, der 
 
 # 2. Aufgaben
 
-## 2.1. Aufgabe Aktivitätsdiagramm entwickeln
+## 2.1. Kurzrecherche UML (Unified Modeling Language)
+
+| **Vorgabe**         | **Beschreibung**                                                        |
+| :------------------ | :---------------------------------------------------------------------- |
+| **Lernziele**       | Kennen Sinn u. Zweck sowie Einsatzbereich von UML Diagrammen            |
+|                     | Können mindestens 3 Diagramme inkl. den Konstruktionselmenten erläutern |
+| **Sozialform**      | Teamarbeit mit max. Grösse von 3-4 Personen                             |
+| **Auftrag**         | siehe unten                                                             |
+| **Hilfsmittel**     |                                                                         |
+| **Zeitbedarf**      | Arbeit 30min, Präsentation max. 10min                                   |
+| **Lösungselemente** | Präsentation (PowerPoint oder Markdown)                                 |
+
+- Identifiziere alle wichtigen Informationen und Merkmale von UML (Unified Modeling Language).
+- Fasse folgende Punkte kurz zusammen:
+  - Wozu werden UML verwendet?
+  - Welche UML Diagramme stehen zur Verfügung?
+  - Übersicht der Tools für die Diagrammerstellung
+  - Erläutere zusätzlich zum Aktivitätsdiagramm min. 3 weitere Diagramme inkl. deren Grundelemente und Beispiele
+  - Stelle die Ergebnisse mittels einer Kurzpräsentation der Klasse vor.
+  - Verwende dabei die Hilfsmittel wie Flow-Charts, Video Beamer, Wandtafel usw. und verweisen Sie ggf. auf weitere die Literatur.
+  - Die Zusammenfassungen sind dann den anderen Klassenkameraden zur Verfügung zu stellen.
+
+---
+
+## 2.2. Aufgabe Aktivitätsdiagramm entwickeln
 
 | **Vorgabe**         | **Beschreibung**                                       |
 | :------------------ | :----------------------------------------------------- |
@@ -179,7 +204,7 @@ Zeichne ein Aktivitätsdiagramm für folgendes Programm:
 
 ---
 
-## 2.2. Aufgabe Aktivitätsdiagramm entwickeln
+## 2.3. Aufgabe Aktivitätsdiagramm entwickeln
 
 | **Vorgabe**         | **Beschreibung**                                       |
 | :------------------ | :----------------------------------------------------- |
@@ -205,11 +230,11 @@ Beispiele könnten sein:
 - Eine Online-Bestellung tätigen
 - Ein YouTube-Video hochladen
 
-Anschliessend erstellst du ein UML-Aktivitätsdiagramm, das diese Aktivität mit den korrekten Elementen darstellt.
+Anschliessend ein UML-Aktivitätsdiagramm erstellen, das diese Aktivität mit den korrekten Elementen darstellt.
 
 **Vorgehen:**
 
-Wähle eine Aktivität aus deinem **Alltag**, die du interessant findest und die mehrere Teilschritte beinhaltet.
+Wähle eine Aktivität aus deinem **Alltag**, die für Dich interessant ist und die mehrere Teilschritte beinhaltet.
 
 Zerlege die Aktivität in einzelne Schritte. Achte dabei auf:
 

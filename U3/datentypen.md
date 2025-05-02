@@ -290,6 +290,6 @@ Finden Sie für die aufgeführten Datenwerte geeignete Datentypen:
 | **Zeitbedarf**      | 20min                                                                        |
 | **Lösungselemente** |                                                                              |
 
-- Lesen Sie auf wikipedia.de über die Begriffe Datentyp, Datenstruktur, Klasse und Objekt.
+- Lesen Sie auf wikipedia.de über die Begriffe **Datentyp**, **Datenstruktur**, **Klasse** und **Objekt**.
 - Diskutieren Sie mit Ihrem Nachbarn und grenzen Sie die Begriffe voneinander ab!
 - Wodurch unterscheiden sich die Begriff?

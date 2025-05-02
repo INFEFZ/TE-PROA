@@ -33,10 +33,10 @@ Die Umsetzung in der Softwareentwicklung beinhaltet eine Vielzahl von Prozessen,
 
 ## 1.1. Anforderungen an Software
 
-- **Anforderungen** sind **spezifische Bedürfnisse oder Bedingungen**, die eine Software erfüllen muss, um erfolgreich eingesetzt werden zu können. 
+- **Anforderungen** sind **spezifische Bedürfnisse oder Bedingungen**, die eine Software erfüllen muss, um erfolgreich eingesetzt werden zu können.
 - Sie werden üblicherweise in **funktionale** und **nicht-funktionale Anforderungen** unterteilt.
 
-- **Funktionale Anforderungen**: beschreiben die spezifischen **Funktionen** oder Leistungen, die die Software ausführen soll. 
+- **Funktionale Anforderungen**: beschreiben die spezifischen **Funktionen** oder Leistungen, die die Software ausführen soll.
 - **Nicht-funktionale Anforderungen**: betreffen die **Qualitätseigenschaften** der Software, wie Leistung, Sicherheit, Usability und Kompatibilität.
 
 ## 1.2. Vorgehensmodelle
@@ -54,7 +54,6 @@ Vorgehensmodelle strukturieren den Entwicklungsprozess und bieten einen Rahmen f
   - ![Scrum](./x_gitres/vorgehensmodell-scrum.png)
 - **Spiralmodell**
   - Kombination aus iterativer Entwicklung und Risikomanagement – das Projekt durchläuft wiederholt Planung, Risikoanalyse und Prototyping.
-
 
 ## 1.3. Entwicklungsmethoden
 
@@ -78,8 +77,8 @@ EVA steht für:
 
 #### 1.3.1.1. Eingabe (**E**)
 
-- Die Eingabe der Daten stellt einen Befehl oder eine Anweisung an das **Gerät** bzw. das System dar. 
-- Die Eingabe kann je nach Bedarf über verschiedene Eingabegeräte erfolgen. 
+- Die Eingabe der Daten stellt einen Befehl oder eine Anweisung an das **Gerät** bzw. das System dar.
+- Die Eingabe kann je nach Bedarf über verschiedene Eingabegeräte erfolgen.
 - Dazu zählen u.a.:
   - Computer-Tastatur
   - Maus
@@ -94,14 +93,14 @@ EVA steht für:
 
 ### 1.3.2. Verarbeitung (**V**)
 
-- Die Verarbeitung bzw. Berechnung eingegebener Daten erfolgt über dafür ausgelegten Einheiten. 
-- Zu den wichtigsten gehören der **Prozessor (CPU)**, der **RAM (Arbeitsspeicher)** und die **Grafikkarte (GPU)**. 
-- Die wichtigste Einheit zur Verarbeitung ist das Zweigespann aus **Prozessor** und **RAM**. 
+- Die Verarbeitung bzw. Berechnung eingegebener Daten erfolgt über dafür ausgelegten Einheiten.
+- Zu den wichtigsten gehören der **Prozessor (CPU)**, der **RAM (Arbeitsspeicher)** und die **Grafikkarte (GPU)**.
+- Die wichtigste Einheit zur Verarbeitung ist das Zweigespann aus **Prozessor** und **RAM**.
 - Zur Speicherung kommen **Festplatten**, **Arbeitsspeicher**, **Cloud-Speicher**, **DVDs** und **USB-Sticks** zum Einsatz
 
 ### 1.3.3. Ausgabe (**A**)
 
-- Um die verarbeiteten Daten wie gewünscht auszugeben, verfügen Computer bzw. elektronische Geräte über entsprechende Ausgabeeinheiten. 
+- Um die verarbeiteten Daten wie gewünscht auszugeben, verfügen Computer bzw. elektronische Geräte über entsprechende Ausgabeeinheiten.
 - Diese sorgen dafür, dass verarbeitete Daten beispielsweise auf einem **Monitor/Screen** angezeigt oder über **Lautsprecher**, **Drucker**, **Beamer** oder **Kopfhörer** ausgegeben werden.
 
 ### 1.3.4. Ein- und Ausgabegeräte
@@ -233,7 +232,7 @@ Die Debug-Toolbar erscheint automatisch, wenn ein Debugging-Prozess in Visual St
 | **Lösungselemente** | Präsentation (PowerPoint oder Markdown)                                                  |
 
 - Identifiziere alle wichtigen Informationen und Merkmale, die Skriptsprachen von Hochsprachen (wie C#, C++, Java usw.) unterscheiden.
-- Fasse die Punkte mittels praxisorientierten Beispielen und Anwendungen zusammen. 
+- Fasse die Punkte mittels praxisorientierten Beispielen und Anwendungen zusammen.
 - Die nachfolgenden Punkte geben einen Rahmen vor:
   - Einsatzbereich
   - Performance
@@ -243,8 +242,8 @@ Die Debug-Toolbar erscheint automatisch, wenn ein Debugging-Prozess in Visual St
   - IDE (Integrated Development Equipment), Tools
   - Compiler / Interpreter
 
-- Stelle die Ergebnisse mittels einer Kurzpräsentation der Klasse vor. 
-- Verwende dabei die Hilfsmittel wie Flow-Charts, Video Beamer, Wandtafel usw. und verweisen Sie ggf. auf weitere die Literatur. 
+- Stelle die Ergebnisse mittels einer Kurzpräsentation der Klasse vor.
+- Verwende dabei die Hilfsmittel wie Flow-Charts, Video Beamer, Wandtafel usw. und verweisen Sie ggf. auf weitere die Literatur.
 - Die Zusammenfassungen sind dann den anderen Klassenkameraden zur Verfügung zu stellen.
 
 ---
@@ -289,5 +288,5 @@ int main()
 
 c)
 
-- Setze am Anfang des Programms einen Haltepunkt (Breakpoint) und starte den Debugger.
-- Führe das Progamm nun im Einzelschritt bis zum Ende aus.
+- Setze am Anfang des Programms einen **Haltepunkt (Breakpoint)** und starte den **Debugger**.
+- Führe das Progamm nun im **Einzelschritt** bis zum Ende aus.

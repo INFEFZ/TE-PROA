@@ -6,18 +6,28 @@
 
 ## Besprechung der Hausaufgaben
 
-Einführung in Programmierung C + Beispiel Helloworld 30‘ (18:15)
-Aufgabe Aufsetzen IDE mit Github Codespace 30‘ (18:45)
+## [Lernziele](./lernziele.md)
 
-Einführung in Tastatureingabe & Ausgabe + Beispiel 10‘ (EVA-Prinzip) (18:55)
-Aufgabe Eingabe & Ausgabe 30‘ (19:25)
+- Was lernen wir?
 
+## ![Grundlagen der Softwareentwicklung](./grundlagen.md)
 
+- Anforderungen
+- Vorgehensmodelle
+- Entwicklungsmethoden
+- Software Entwicklungswerkzeuge
+- Einführung GitHub Codespaces
+- Übungsaufgaben
 
-Unit 5
+## ![Einführung in Programmierung C](./einführung.md)
 
-Theorie Elementare, modifizierte Datentypen u. Konstanten und Variablen in C + Beispiel 30‘ (20:25)
-Aufgabe Datentypen 20‘ (20:45)
+- Entstehungsgeschichte
+- Standardisierung
+- Werkzeuge
+- Übungsaufgabe Hello World Programm
 
-Komplexere Datenstrukturen in C + Beispiel 20‘ (21:05)
-Aufgabe Komplexere Datenstrukturen (Rest der Zeit)
+## ![Einführung Ein- und Ausgabe](./ein-ausgabe.md)
+
+- Formatierte Ausgabe `prinf()`
+- Formatierte Eingabe `scanf()`
+- Übungsbeispiele
