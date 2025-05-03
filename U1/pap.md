@@ -12,7 +12,6 @@
   - [1.5. Mit draw.io einen Programmablaufplan (PAP) erstellen](#15-mit-drawio-einen-programmablaufplan-pap-erstellen)
 - [2. Aufgaben](#2-aufgaben)
   - [2.1. Zahl auswerten](#21-zahl-auswerten)
-  - [2.2. Flowgorithm Einführung](#22-flowgorithm-einführung)
 
 ---
 
@@ -96,26 +95,3 @@ Zeichne ein Flussdiagramm für folgendes Programm:
 - Vergleichen der Zahl, ob Sie grösser 0 ist.
 - Ausgeben der Zahl falls Sie grösser als 0 ist.
 
----
-
-## 2.2. Flowgorithm Einführung
-
-| **Vorgabe**         | **Beschreibung**                                    |
-| :------------------ | :-------------------------------------------------- |
-| **Lernziele**       | Kenn die Grundelemente eines Flowgorithm Programmes |
-|                     | Kann ein Flowgorithm entwickeln                     |
-|                     | Kann Algorithmen in Flowgorithm prüfen              |
-| **Sozialform**      | Einzelarbeit                                        |
-| **Auftrag**         | siehe unten                                         |
-| **Hilfsmittel**     |                                                     |
-| **Zeitbedarf**      | 30min                                               |
-| **Lösungselemente** | Vollständiges Flowgorithm                           |
-
-a)
-Start das **Flowgorithm** und ändere die Sprache mit **F3** oder über das Menü "**Appearance->Change Language...**"  z.B. auf Deutsch.
-
-b)
-Rufe über das Menü "Hilfe->Dokumentation" die Online Hilfe auf und verschaffe Dir einen Überblick zu den "**Basic Shapes: Assignment, Declare, Input und Outpupt**"
-
-c)
-Versuche den PAP "Zahl auswerten" in Flowgorithm umzusetzen.

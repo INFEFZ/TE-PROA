@@ -14,15 +14,16 @@
   - [1.6. Sprung (GoTo)](#16-sprung-goto)
   - [1.7. Logische Verknüpfungen](#17-logische-verknüpfungen)
 - [2. Aufgaben](#2-aufgaben)
-  - [2.1. Kleinste Zahl](#21-kleinste-zahl)
-  - [2.2. Auswahl](#22-auswahl)
-  - [2.3. Verzweigung (Auswahl)](#23-verzweigung-auswahl)
-  - [2.4. Mehrfachauswahl](#24-mehrfachauswahl)
-  - [2.5. Wiederholungen](#25-wiederholungen)
-  - [2.6. Gerade Zahlen](#26-gerade-zahlen)
-  - [2.7. Mehrwertsteuer](#27-mehrwertsteuer)
-  - [2.8. Taschenrechner](#28-taschenrechner)
-  - [2.9. Kreisfläche berechnen](#29-kreisfläche-berechnen)
+  - [2.1. Flowgorithm Einführung](#21-flowgorithm-einführung)
+  - [2.2. Kleinste Zahl](#22-kleinste-zahl)
+  - [2.3. Auswahl](#23-auswahl)
+  - [2.4. Verzweigung (Auswahl)](#24-verzweigung-auswahl)
+  - [2.5. Mehrfachauswahl](#25-mehrfachauswahl)
+  - [2.6. Wiederholungen](#26-wiederholungen)
+  - [2.7. Gerade Zahlen](#27-gerade-zahlen)
+  - [2.8. Mehrwertsteuer](#28-mehrwertsteuer)
+  - [2.9. Taschenrechner](#29-taschenrechner)
+  - [2.10. Kreisfläche berechnen](#210-kreisfläche-berechnen)
 
 ---
 
@@ -193,7 +194,31 @@ Beispiele Diagramme: Diese werden meistens als Kombination in einer Bedingung da
 
 # 2. Aufgaben
 
-## 2.1. Kleinste Zahl
+## 2.1. Flowgorithm Einführung
+
+| **Vorgabe**         | **Beschreibung**                                    |
+| :------------------ | :-------------------------------------------------- |
+| **Lernziele**       | Kenn die Grundelemente eines Flowgorithm Programmes |
+|                     | Kann ein Flowgorithm entwickeln                     |
+|                     | Kann Algorithmen in Flowgorithm prüfen              |
+| **Sozialform**      | Einzelarbeit                                        |
+| **Auftrag**         | siehe unten                                         |
+| **Hilfsmittel**     |                                                     |
+| **Zeitbedarf**      | 30min                                               |
+| **Lösungselemente** | Vollständiges Flowgorithm                           |
+
+a)
+Start das **Flowgorithm** und ändere die Sprache mit **F3** oder über das Menü "**Appearance->Change Language...**"  z.B. auf Deutsch.
+
+b)
+Rufe über das Menü "Hilfe->Dokumentation" die Online Hilfe auf und verschaffe Dir einen Überblick zu den "**Basic Shapes: Assignment, Declare, Input und Outpupt**"
+
+c)
+Versuche den PAP "Zahl auswerten" in Flowgorithm umzusetzen.
+
+---
+
+## 2.2. Kleinste Zahl
 
 | **Vorgabe**         | **Beschreibung**                                   |
 | :------------------ | :------------------------------------------------- |
@@ -210,7 +235,9 @@ a)
 Schreibe ein PAP, in welchem zwei Werte eingelesen und der grössere Wert danach am Bildschirm angezeigt wird
 Versuchen Sie diese Aufgabe mit **draw.io** zu lösen.
 
-## 2.2. Auswahl
+---
+
+## 2.3. Auswahl
 
 | **Vorgabe**         | **Beschreibung**                                  |
 | :------------------ | :------------------------------------------------ |
@@ -230,7 +257,9 @@ Zeichne ein **Flussdiagramm**, ein **Aktivitätsdiagramm** und ein **Struktogram
 - Einlesen einer 3. Zahl
 - Ausgabe der des Mittelwertes der 3 Zahlen, wenn der Mittelwert grösser 10 ist.
 
-## 2.3. Verzweigung (Auswahl)
+---
+
+## 2.4. Verzweigung (Auswahl)
 
 | **Vorgabe**         | **Beschreibung**                                  |
 | :------------------ | :------------------------------------------------ |
@@ -250,7 +279,7 @@ Zeichne Sie das Struktogramm
 
 ---
 
-## 2.4. Mehrfachauswahl
+## 2.5. Mehrfachauswahl
 
 | **Vorgabe**         | **Beschreibung**                                  |
 | :------------------ | :------------------------------------------------ |
@@ -271,7 +300,7 @@ Ist `q > 80` dann ist die **Tätigkeit D** auszuführen.
 
 Zeichne das Struktogramm!
 
-## 2.5. Wiederholungen
+## 2.6. Wiederholungen
 
 | **Vorgabe**         | **Beschreibung**                                                     |
 | :------------------ | :------------------------------------------------------------------- |
@@ -289,7 +318,7 @@ Zeichne mit einem Diagramm eurer Wahl folgendes Programm:
 - Einlesen von **n-Zahlen** in einer Schleife bis der User nichts mehr eingibt.
 - Ausgabe der des Mittelwertes der **n-Zahlen**
 
-## 2.6. Gerade Zahlen
+## 2.7. Gerade Zahlen
 
 | **Vorgabe**         | **Beschreibung**                                            |
 | :------------------ | :---------------------------------------------------------- |
@@ -307,7 +336,7 @@ Zeichne mit einem Diagramm eurer Wahl folgendes Programm:
 
 > **Tipp: Modulo verwenden**
 
-## 2.7. Mehrwertsteuer
+## 2.8. Mehrwertsteuer
 
 | **Vorgabe**         | **Beschreibung**                                        |
 | :------------------ | :------------------------------------------------------ |
@@ -322,7 +351,7 @@ Zeichne mit einem Diagramm eurer Wahl folgendes Programm:
 
 Schreiben Sie in Flowgorithm ein Programmablaufplan (PAP), das nach einem Rechnungsbetrag fragt und danach den Mehrwertsteuerbetrag ermittelt und diesen zusammen mit dem Gesamtbetrag ausgibt.
 
-## 2.8. Taschenrechner
+## 2.9. Taschenrechner
 
 | **Vorgabe**         | **Beschreibung**                                        |
 | :------------------ | :------------------------------------------------------ |
@@ -340,7 +369,7 @@ Schreiben sie ein kleines Taschenrechnerprogramm (PAP) das zwei Zahlen zusammenz
 - Zuerst sollen die beiden Zahlen eingegeben werden.
 - Danach soll durch die Eingabe des Charakters '+' zusammengezählt, '-' abgezählt, '*' multipliziert oder '/' dividiert werden.
 
-## 2.9. Kreisfläche berechnen
+## 2.10. Kreisfläche berechnen
 
 | **Vorgabe**         | **Beschreibung**                                        |
 | :------------------ | :------------------------------------------------------ |
