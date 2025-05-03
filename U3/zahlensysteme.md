@@ -15,7 +15,8 @@
     - [1.4.6. Umwandlung Hexadezimal nach Dezimal](#146-umwandlung-hexadezimal-nach-dezimal)
 - [2. ASCII-Zeichensatz](#2-ascii-zeichensatz)
 - [3. Aufgaben](#3-aufgaben)
-  - [3.1. Typenzuordnung und Zahlenumwandlung](#31-typenzuordnung-und-zahlenumwandlung)
+  - [3.1. Aufgabe Zahlensysteme und deren Umwandlung](#31-aufgabe-zahlensysteme-und-deren-umwandlung)
+  - [3.2. Typenzuordnung und Zahlenumwandlung](#32-typenzuordnung-und-zahlenumwandlung)
 
 # 1. Zahlensysteme
 
@@ -159,7 +160,32 @@ Die 96 darstellbaren Zeichen des ASCII-Zeichensatzes
 
 # 3. Aufgaben
 
-## 3.1. Typenzuordnung und Zahlenumwandlung
+## 3.1. Aufgabe Zahlensysteme und deren Umwandlung
+
+| **Vorgabe**         | **Beschreibung**                                                  |
+| :------------------ | :---------------------------------------------------------------- |
+| **Lernziele**       | Kennt die verschiedenen Zahlensysteme                             |
+|                     | Kann Umwandlungen von einem Zahlensystem in ein anderes ausführen |
+| **Sozialform**      | Gruppenarbeit                                                     |
+| **Auftrag**         | siehe unten                                                       |
+| **Hilfsmittel**     |                                                                   |
+| **Zeitbedarf**      | 30min Arbeit, 10min Präsentation                                  |
+| **Lösungselemente** | Präsentation                                                      |
+
+- Erkläre anhand ausgewählter Beispiele, wie Zahlen zwischen verschiedenen Zahlensystemen umgewandelt werden.
+- Die Präsentation soll sowohl die theoretischen Grundlagen als auch die praktische Umsetzung vermitteln.
+- Zeige anhand einfacher Zahlen, wie eine Zahl vom Dezimalsystem in das Binärsystem umgewandelt wird.
+
+- **Gruppe Dualsystem (Binärzahl)**
+  - Dezimal nach Binärzahl
+  - Binärzahl nach Dezimal
+- **Gruppe Hexadezimalsystem**
+  - Dezimalzahl nach Hexadezimal
+  - Hexadezimal nach Dezimal
+
+---
+
+## 3.2. Typenzuordnung und Zahlenumwandlung
 
 | **Vorgabe**         | **Beschreibung**                                                          |
 | :------------------ | :------------------------------------------------------------------------ |
