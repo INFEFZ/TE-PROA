@@ -95,7 +95,7 @@ Eine Aktion ist ein einzelner, **atomarer Schritt** innerhalb einer **Aktivität
 - Zeigt die logische Reihenfolge der Aktivitäten.
 - Verbindet Aktionen, Entscheidungen, Start- und Endpunkte.
 
-`[Sequenz](./x_gitres/aktivitätsdiagram-sequenz.png)
+![Sequenz](./x_gitres/aktivitätsdiagram-sequenz.png)
 
 ## 1.5. Fork-Knoten (Parallelisierung)
 
