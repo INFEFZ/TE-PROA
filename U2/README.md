@@ -16,7 +16,7 @@
 - Beispiele
 - Übungsaufgaben
 
-## [Einführung in Programmsteuerung](./programmsteuerung.md)
+## [Einführung in Programmsteuerung](./programsteuerung.md)
 
 - Definition
 - Auswahl (Verzweigungen)
