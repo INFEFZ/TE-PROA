@@ -10,7 +10,7 @@
 
 - Was lernen wir?
 
-## ![Grundlagen der Softwareentwicklung](./grundlagen.md)
+## [Grundlagen der Softwareentwicklung](./grundlagen.md)
 
 - Anforderungen
 - Vorgehensmodelle
@@ -19,18 +19,18 @@
 - Einführung GitHub Codespaces
 - Übungsaufgaben
 
-## ![Einführung in Programmierung C](./einführung.md)
+## [Einführung in Programmierung C](./einführung.md)
 
 - Entstehungsgeschichte
 - Standardisierung
 - Übungsaufgabe
 
-## ![Programmerzeugung](./programmerzeugung.md)
+## [Programmerzeugung](./programmerzeugung.md)
 
 - Werkzeuge
 - Übungsaufgabe Hello World Programm
 
-## ![Einführung Ein- und Ausgabe](./ein-ausgabe.md)
+## [Einführung Ein- und Ausgabe](./ein-ausgabe.md)
 
 - Formatierte Ausgabe `prinf()`
 - Formatierte Eingabe `scanf()`

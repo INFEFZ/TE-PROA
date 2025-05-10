@@ -18,9 +18,9 @@
 
 ## [Typenkonversionen](./typenkonversion.md)
 
-- Implizite Typkonversion
-- Explizite Typkonversion (Casting)
-- Standard-Methoden für Typkonversionen
+- Implizite Typenkonversion
+- Explizite Typenkonversion (Casting)
+- Standard-Methoden für Typenkonversionen
 - Übungsaufgaben
 
 ## [Kontrollstrukturen](./kontrollstrukturen.md)
