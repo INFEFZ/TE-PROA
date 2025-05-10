@@ -27,7 +27,7 @@
 - Verwendung: Unser Alltagssystem (z. B. beim Rechnen, Geld, Uhrzeit)
 
 Beispiel: Die Zahl 345 bedeutet:
-3 *10^2 + 4* 10^1 + 5 * 10^0 = 300 + 40 + 5
+`3 *10^2 + 4* 10^1 + 5 * 10^0 = 300 + 40 + 5`
 
 ## 1.2. Dualsystem (Binärsystem)
 
@@ -37,7 +37,7 @@ Beispiel: Die Zahl 345 bedeutet:
 
 Beispiel: Die Binärzahl 1011 entspricht:
 
-1 *2^3 + 0* 2^2 + 1 *2^1 + 1* 2^0 = 8+0+2+1=11 (im Dezimalsystem)
+`1 *2^3 + 0* 2^2 + 1 *2^1 + 1* 2^0 = 8+0+2+1=11 (im Dezimalsystem)`
 
 ## 1.3. Hexadezimalsystem (16er-System)
 
@@ -47,7 +47,7 @@ Beispiel: Die Binärzahl 1011 entspricht:
 
 Beispiel: Die Hexadezimalzahl 2F bedeutet:
 
-2 *16^1* 15 * 16^0 = 32+15=47 (im Dezimalsystem)
+`2 *16^1* 15 * 16^0 = 32+15=47 (im Dezimalsystem)`
 
 ## 1.4. Wandlungen zwischen Zahlensystemen
 

@@ -6,29 +6,22 @@
 
 ## Besprechung der Hausaufgaben
 
-## [Kapitel 7 - Datentypen und Variablenin C](./x_gitres/k07-Datentypen%20und%20Variablen%20in%20C.pdf)
+## [Lernziele](./lernziele.md)
 
-- Deklaration
-- Initialisierung
-- Konstanten
-- Übungsaufgabe Datentypen
+## [Lexikalische Konventionen in C](./lexikalische-konventionen.md)
 
-## [Datentypen](./datentypen.md)
+- Bezeichner
+- Schlüsselwörter
+- Operatoren
+- Literals (Zahlen, Zeichen, Strings)
+- Kommentare
+- Sonderzeichen / Klammern
+- Übungsaufgaben
+
+## [Datentypen in C](./datentypen.md)
 
 - Elementare Datentypen
 - Modifizierte Datentypen
+- Deklaration u. Initialisierung
 - Konstanten
-
-## Komplexere Datenstrukturen
-
-- Übungsaufgabe Komplexere Datenstrukturen
-
-## Operatoren
-
-- Aufgabe Operatoren + Beispiel
-
-## Ablaufstrukturen u. Anweisungen + Beispiel 30‘ (10:10)
-
-- Aufgabe Ablaufstrukturen
-- Iterative Ablaufstrukturen + Beispiel 20‘ (11:00)
-- Aufgabe iterative Ablaufstrukturen (Rest der Zeit)
+- Übungsaufgabe

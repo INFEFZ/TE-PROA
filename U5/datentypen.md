@@ -38,6 +38,8 @@ In C gibt es elementare Datentypen, mit denen einfache Werte gespeichert werden 
 
 > Die tatsächliche Grösse und Wertebereiche können von Compiler und Plattform abhängen (z. B. 32-bit vs. 64-bit).
 
+![E-Book K7 - Datentypen und Variablen in C](./x_gitres/k07-datentypen-und-variablen-in-c.pdf)
+
 ### 1.1.1. Ganzzahlige Datentypen (Integer Types)
 
 | **Typ**     | **Beschreibung**        | **Speichergrösse** | **Wertebereich (typisch)**        |
@@ -118,7 +120,7 @@ int main() {
   - In C werden Konstanten mit dem Schlüsselwort **`const`** definiert. Beispiel: **`const int MAX = 100;`**
 - Variablendefinition
   - Die Deklaration einer Variablen reserviert Speicherplatz für die Variable und legt ihren Typ fest.
-  - Beispiel: `int alter = 30;` definiert eine Ganzzahlvariable mit dem Namen **`alter`** und weist ihr den Wert 30 zu.
+  - Beispiel: `int alter = 30;` definiert eine Ganzzahl-Variable mit dem Namen **`alter`** und weist ihr den Wert 30 zu.
 
 - Numerische Konstanten
   - Ganzzahlen (Integer), z.B. `10, -3, 0`
@@ -346,12 +348,12 @@ int main() {
 | **Zeitbedarf**      | 15min                                                              |
 | **Lösungselemente** | Liste der Antworten                                                |
 
-a) Erkläre die Datentypen in, char, float, double.
+a) Erkläre die Datentypen `int`, `char`, `float`, `double`.
 b) Was ist eine Konstante? Wie mache ich die Deklaration in C?
-c) Was ist eine Variablendefinition?
-d) Was bedeutet unsigned int?
-e) Was bedeutet int?
-f) Was bedeuteet int zahl=1?
+c) Was ist eine Variablen-Definition?
+d) Was bedeutet `unsigned int`?
+e) Was bedeutet `int`?
+f) Was bedeutet `int zahl=1`?
 
 ---
 

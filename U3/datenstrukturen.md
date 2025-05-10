@@ -13,6 +13,7 @@
     - [1.2.4. Queue](#124-queue)
     - [1.2.5. Mobile App "Algorithms"](#125-mobile-app-algorithms)
 - [2. Aufgaben](#2-aufgaben)
+  - [2.1. Datenstrukturen](#21-datenstrukturen)
   - [2.1. Datenstruktur bestimmen](#21-datenstruktur-bestimmen)
 
 ---
@@ -117,9 +118,45 @@ Ausgezeichnete mobile Anwendung zum Verständnis verschiedener Algorithmen (The 
 
 [Algorithm.Wiki](http://algorithm.wiki/en/app/)
 
+---
+
 </br>
 
 # 2. Aufgaben
+
+## 2.1. Datenstrukturen
+
+| **Vorgabe**         | **Beschreibung**                                                                                |
+| :------------------ | :---------------------------------------------------------------------------------------------- |
+| **Lernziele**       | Kennt den Einsatzbereich von komplexen Datenstrukturen                                          |
+|                     | Kann die Funktionsweise der Datenstrukturen (Liste, Stack, Queue, Baum) erklären                |
+| **Sozialform**      | Gruppenarbeit                                                                                   |
+| **Auftrag**         | siehe unten                                                                                     |
+| **Hilfsmittel**     | [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) |
+| **Zeitbedarf**      | 40min Arbeit, 10min Präsentation                                                                |
+| **Lösungselemente** |                                                                                                 |
+
+Der beste Weg, komplexe Datenstrukturen zu verstehen, ist, sie in Aktion zu sehen. 
+Eine Vielzahl von Datenstrukturen und Algorithmen werden auf [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) als interaktive Animationen dargestellt.
+
+Setze dich intensiv mit der zugeteilten Datenstruktur auseinander, analysiere deren Aufbau und Funktionsweise und präsentiere deine Ergebnisse in einer kurzen Präsentation.
+
+- Liste (einfach und doppelt verkettet)
+  - [Linked List Visualizer](https://vonvista.github.io/Linked-List/)
+  - [Visualgo](https://visualgo.net/en/list?slide=3)
+- Stack
+  - [Stack (Array)](https://www.cs.usfca.edu/~galles/visualization/StackArray.html)
+  - [Stack (Linked List)](https://www.cs.usfca.edu/~galles/visualization/StackLL.html)
+- Queue
+  - [Queue (Array)](https://www.cs.usfca.edu/~galles/visualization/QueueArray.html)
+  - [Queue (List)](https://www.cs.usfca.edu/~galles/visualization/QueueLL.html)
+- Baum Binärbaum
+  - [AVL Tree](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html)
+- B+ Baum
+  - [B Trees](https://www.cs.usfca.edu/~galles/visualization/BTree.html)
+  - [B+ Trees](https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html)
+
+---
 
 ## 2.1. Datenstruktur bestimmen
 

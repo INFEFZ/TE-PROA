@@ -8,9 +8,10 @@
   - [1.3. Beispiel C-Programmcode](#13-beispiel-c-programmcode)
 - [2. Aufgaben](#2-aufgaben)
   - [2.1. Funktion](#21-funktion)
-  - [2.1. Celsius/Fahrenheit Umrechnung](#21-celsiusfahrenheit-umrechnung)
-  - [2.2. Benutzeranmeldung](#22-benutzeranmeldung)
-  - [2.2. Zahl raten](#22-zahl-raten)
+  - [2.2. Celsius/Fahrenheit Umrechnung](#22-celsiusfahrenheit-umrechnung)
+  - [2.3. Trennstriche ausgeben](#23-trennstriche-ausgeben)
+  - [2.4. Benutzeranmeldung](#24-benutzeranmeldung)
+  - [2.5. Zahl raten](#25-zahl-raten)
 
 # 1. Funktionen
 
@@ -109,7 +110,7 @@ Verpacke die Entscheidung und Ausgabe der Aufgabe Logische Verknüpfung in eine 
 
 ---
 
-## 2.1. Celsius/Fahrenheit Umrechnung
+## 2.2. Celsius/Fahrenheit Umrechnung
 
 | **Vorgabe**         | **Beschreibung**                                        |
 | :------------------ | :------------------------------------------------------ |
@@ -147,7 +148,26 @@ Erweitere die Aufgabe d), sodass der Wertebereich (von/bis) mit zwei Funktionspa
 
 ---
 
-## 2.2. Benutzeranmeldung
+## 2.3. Trennstriche ausgeben
+
+| **Vorgabe**         | **Beschreibung**                                        |
+| :------------------ | :------------------------------------------------------ |
+| **Lernziele**       | Kennt die Grundelemente eines Programmablaufplan        |
+|                     | Kann ein Programmablaufplan entwickeln                  |
+|                     | Kann Algorithmen in einem Programmablaufplan darstellen |
+| **Sozialform**      | Einzelarbeit                                            |
+| **Auftrag**         | siehe unten                                             |
+| **Hilfsmittel**     |                                                         |
+| **Zeitbedarf**      | 40min                                                   |
+| **Lösungselemente** | Vollständiges Flowgorithm                               |
+
+Entwickle einen Programmablaufplan, der die Trennzeichen ausgibt.
+Aus Gründen der Wiederverwendbarkeit soll die Ausgabe der Trennstriche in einer Funktion (TrennstricheAusgeben) programmiert werden.
+Um unterschiedlich lange Trennlinien auszugeben, muss die Anzahl der Trennstriche als Parameter an die Funktion übergeben werden.
+
+---
+
+## 2.4. Benutzeranmeldung
 
 | **Vorgabe**         | **Beschreibung**                                        |
 | :------------------ | :------------------------------------------------------ |
@@ -173,7 +193,7 @@ Dabei sind die Benutzernamen- und Passworteingaben in separate Funktionen zu gli
 
 ---
 
-## 2.2. Zahl raten
+## 2.5. Zahl raten
 
 | **Vorgabe**         | **Beschreibung**                                                     |
 | :------------------ | :------------------------------------------------------------------- |

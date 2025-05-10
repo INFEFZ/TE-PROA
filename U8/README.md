@@ -5,3 +5,15 @@
 # Agenda Unit 8
 
 ## Besprechung der Hausaufgaben
+
+## Prüfung
+
+- Theorie, Microsoft Forms
+- 120 min
+
+## Ausblick Programmiertechnik B
+
+## Abschluss
+
+- Rückblende / Rekapitulation
+- Abstimmung der Lernziele

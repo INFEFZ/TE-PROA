@@ -122,30 +122,30 @@ printf("%.2f\n", 3.14159);    // nur 2 Nachkommastellen
 | :------------------ | :---------------------------------------------------- |
 | **Lernziele**       | Programm Ein- und Ausgabe Möglichkeiten sind bekannt  |
 |                     | Kann eine Formatierte Ausgabe mit `printf()` umsetzen |
-|                     | Können ein Progamm Code mit Kommentaren versehen      |
+|                     | Können ein Programm Code mit Kommentaren versehen     |
 | **Sozialform**      | Einzelarbeit                                          |
 | **Auftrag**         | siehe unten                                           |
 | **Hilfsmittel**     |                                                       |
 | **Zeitbedarf**      | 20min                                                 |
-| **Lösungselemente** | Fragekatalog                                          |
+| **Lösungselemente** | Fragenkatalog                                         |
 
-- Lese im offiziellen Buch [C als erste Progammiersprache](./x_gitres/k02-einfache-beispielprogamme.pdf) das Kapitel 2
-- Erstelle zu Unklarheiten einen Fragekatalog, sodass wir die Fragen im Anschluss klären können.
+- Lese im offiziellen Buch [C als erste Programmiersprache](./x_gitres/k02-einfache-beispielprogamme.pdf) das Kapitel 2
+- Erstelle zu Unklarheiten einen Fragenkatalog, sodass wir die Fragen im Anschluss klären können.
 
 ---
 
 ## 2.1. Ein- und Ausgabe
 
-| **Vorgabe**         | **Beschreibung**                               |
-| :------------------ | :--------------------------------------------- |
-| **Lernziele**       | Können Benutzereingaben formatgerecht einlesen |
-|                     | Können Daten formatiert ausgeben               |
-|                     | Können die Format-Specifiers korrekt einsetzen |
-| **Sozialform**      | Einzelarbeit                                   |
-| **Auftrag**         | siehe unten                                    |
-| **Hilfsmittel**     |                                                |
-| **Zeitbedarf**      | 30min                                          |
-| **Lösungselemente** | Lauffähiges korrektes Programm                 |
+| **Vorgabe**         | **Beschreibung**                                |
+| :------------------ | :---------------------------------------------- |
+| **Lernziele**       | Können Benutzereingaben Format gerecht einlesen |
+|                     | Können Daten formatiert ausgeben                |
+|                     | Können die Format-Specifiers korrekt einsetzen  |
+| **Sozialform**      | Einzelarbeit                                    |
+| **Auftrag**         | siehe unten                                     |
+| **Hilfsmittel**     |                                                 |
+| **Zeitbedarf**      | 30min                                           |
+| **Lösungselemente** | Lauffähiges korrektes Programm                  |
 
 - Schreibe ein C-Programm welches vom Benutzer 2 Zahlen fragt, diese zusammen zählt und danach ausgibt.
 - Mache das Struktogramm oder PAP dazu.
@@ -154,20 +154,20 @@ printf("%.2f\n", 3.14159);    // nur 2 Nachkommastellen
 
 ## 2.1. Aufgabe Datentypen (URI)
 
-| **Vorgabe**         | **Beschreibung**                               |
-| :------------------ | :--------------------------------------------- |
-| **Lernziele**       | Können Benutzereingaben formatgerecht einlesen |
-|                     | Können Daten formatiert ausgeben               |
-|                     | Können die Format-Specifiers korrekt einsetzen |
-| **Sozialform**      | Einzelarbeit                                   |
-| **Auftrag**         | siehe unten                                    |
-| **Hilfsmittel**     |                                                |
-| **Zeitbedarf**      | 30min                                          |
-| **Lösungselemente** | Lauffähiges korrektes Programm                 |
+| **Vorgabe**         | **Beschreibung**                                |
+| :------------------ | :---------------------------------------------- |
+| **Lernziele**       | Können Benutzereingaben Format gerecht einlesen |
+|                     | Können Daten formatiert ausgeben                |
+|                     | Können die Format-Specifiers korrekt einsetzen  |
+| **Sozialform**      | Einzelarbeit                                    |
+| **Auftrag**         | siehe unten                                     |
+| **Hilfsmittel**     |                                                 |
+| **Zeitbedarf**      | 30min                                           |
+| **Lösungselemente** | Lauffähiges korrektes Programm                  |
 
 - Schreibe ein Programm, das eine Zählvariable, eine Konstante PI (3.141...) und den Algorithmus U=R*I enthält.
 - Am Ende sollen die Zählvariable, PI und der Wert von U ausgegeben werden.
 - Wähle passende Datentypen.
 - Die Zählvariable soll einmal um eins erhöht werden.
 - Die Werte für R und I sollen vorgegeben sein.
-- Berechne U und gib das Resultat, PI und die Zählvariable formatgerecht aus
+- Berechne U und gib das Resultat, PI und die Zählvariable Format gerecht aus

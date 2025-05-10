@@ -16,7 +16,7 @@
   - [1.5. Agile Praktiken (Scrum, Kanban)](#15-agile-praktiken-scrum-kanban)
   - [1.6. Software-Werkzeuge](#16-software-werkzeuge)
   - [1.7. GitHub Codespaces](#17-github-codespaces)
-    - [1.7.1. Programm starten u. debugen](#171-programm-starten-u-debugen)
+    - [1.7.1. Programm starten u. debuggen](#171-programm-starten-u-debuggen)
     - [1.7.2. Kurzbeschreibung](#172-kurzbeschreibung)
     - [1.7.3. Funktionen im Überblick](#173-funktionen-im-überblick)
 - [2. Aufgaben](#2-aufgaben)
@@ -63,7 +63,7 @@ Vorgehensmodelle strukturieren den Entwicklungsprozess und bieten einen Rahmen f
 
 Das EVA-Prinzip beschreibt den grundlegenden Ablauf in jedem informationsverarbeitenden System.
 
-![EVA Prizip](./x_gitres/eva-prinzip.png)
+![EVA Prinzip](./x_gitres/eva-prinzip.png)
 
 [Wiki](https://de.wikipedia.org/wiki/EVA-Prinzip)
 
@@ -145,7 +145,7 @@ EVA steht für:
 - **Paarprogrammierung**
   - 2 Entwickler implementieren gemeinsam, Code im Dialog, Navigator, Autor
 - **Code-Review**
-  - Überprüfung des Codes durch andere Entwickler, teilweise automatisiert mit Integrationsbuild, Coding-Guidelines-Check (Sonarqube)
+  - Überprüfung des Codes durch andere Entwickler, teilweise automatisiert mit Integrationsbuild, Coding-Guidelines-Check (SonarQube)
 - **Produktiv keine Bugs**
   - Ziel in der produktiven Software werden keine Fehler mehr gefunden
 - **Testautomatisierung**
@@ -192,7 +192,7 @@ EVA steht für:
 
 ![GitHub Codespace Editor](./x_gitres/github-codespace-editor.png)
 
-### 1.7.1. Programm starten u. debugen
+### 1.7.1. Programm starten u. debuggen
 
 ![Start und Debug](./x_gitres/github-codespace-debug.png)
 
@@ -266,7 +266,7 @@ a)
 GitHub Codespaces ist ein Cloud-basierter Entwicklungsraum, der es dir ermöglicht, direkt in GitHub eine komplette Entwicklungsumgebung (IDE) zu starten – ohne etwas lokal installieren zu müssen.
 Verschaffe Dir mit den [Schnellstart für GitHub Codespaces](https://docs.github.com/de/codespaces/quickstart) zur Anwendung und Einsatzbereich einen Überblick.
 
-Optional: [Secure developmentt made simple](https://github.com/features/codespaces)
+Optional: [Secure development made simple](https://github.com/features/codespaces)
 
 b)
 
@@ -289,4 +289,4 @@ int main()
 c)
 
 - Setze am Anfang des Programms einen **Haltepunkt (Breakpoint)** und starte den **Debugger**.
-- Führe das Progamm nun im **Einzelschritt** bis zum Ende aus.
+- Führe das Programm nun im **Einzelschritt** bis zum Ende aus.

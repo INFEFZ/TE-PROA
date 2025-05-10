@@ -10,6 +10,13 @@
 
 - Was lernen wir?
 
+## [Funktionen](./funktionen.md)
+
+- Definition
+- Sinn u. Zweck
+- Darstellung in Diagrammen
+- Übungsaufgaben
+
 ## [Datentypen](./datentypen.md)
 
 - Elementare Datentypen
