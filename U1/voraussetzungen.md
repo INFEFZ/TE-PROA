@@ -5,11 +5,12 @@
 - [1. Voraussetzungen](#1-voraussetzungen)
   - [1.1. Visual Studio Code](#11-visual-studio-code)
   - [1.2. Extension Draw.io Integration](#12-extension-drawio-integration)
-  - [1.3. Extension C/C++](#13-extension-cc)
-  - [1.4. Extension Material Icon Theme (empfohlen)](#14-extension-material-icon-theme-empfohlen)
-  - [1.5. Extension Markdown All in One (empfohlen)](#15-extension-markdown-all-in-one-empfohlen)
-  - [1.6. Flowgorithm](#16-flowgorithm)
-  - [1.7. Struktogramme](#17-struktogramme)
+  - [1.3. Tools für Visual Studio](#13-tools-für-visual-studio)
+  - [1.4. Extension C/C++](#14-extension-cc)
+  - [1.5. Extension Material Icon Theme (empfohlen)](#15-extension-material-icon-theme-empfohlen)
+  - [1.6. Extension Markdown All in One (empfohlen)](#16-extension-markdown-all-in-one-empfohlen)
+  - [1.7. Flowgorithm](#17-flowgorithm)
+  - [1.8. Struktogramme](#18-struktogramme)
 - [2. Aufgaben](#2-aufgaben)
   - [2.1. GitHub Account erstellen](#21-github-account-erstellen)
   - [2.2. Installation u. Softwarevoraussetzungen](#22-installation-u-softwarevoraussetzungen)
@@ -43,7 +44,19 @@ Alternativ stehen auch folgende Möglichkeiten zur Verfügung:
 
 </br>
 
-## 1.3. Extension C/C++
+## 1.3. Tools für Visual Studio
+
+Buildtools für Visual Studio 2022
+
+![Buildtools für Visual Studio](./x_gitres/visual-studio-code-build-tools.png)
+
+[Download](https://visualstudio.microsoft.com/de/downloads/)
+
+---
+
+</br>
+
+## 1.4. Extension C/C++
 
 ![visual studio code](./x_gitres/visual-studio-code-extension-c.png)
 
@@ -51,7 +64,7 @@ Alternativ stehen auch folgende Möglichkeiten zur Verfügung:
 
 </br>
 
-## 1.4. Extension Material Icon Theme (empfohlen)
+## 1.5. Extension Material Icon Theme (empfohlen)
 
 ![visual studio code](./x_gitres/visual-studio-code-extension-material.png)
 
@@ -59,7 +72,7 @@ Alternativ stehen auch folgende Möglichkeiten zur Verfügung:
 
 </br>
 
-## 1.5. Extension Markdown All in One (empfohlen)
+## 1.6. Extension Markdown All in One (empfohlen)
 
 ![visual studio code](./x_gitres/visual-studio-code-extension-markdown.png)
 
@@ -67,7 +80,7 @@ Alternativ stehen auch folgende Möglichkeiten zur Verfügung:
 
 </br>
 
-## 1.6. Flowgorithm
+## 1.7. Flowgorithm
 
 ![Flowgorithm](./x_gitres/flowgorithm.png)
 [Download Flowgorithm](http://www.flowgorithm.org/download/index.html)
@@ -76,7 +89,7 @@ Alternativ stehen auch folgende Möglichkeiten zur Verfügung:
 
 </br>
 
-## 1.7. Struktogramme
+## 1.8. Struktogramme
 
 ![Struktogramm Editor](./x_gitres/struktogramm-editor.png)
 
