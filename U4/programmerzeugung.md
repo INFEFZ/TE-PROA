@@ -120,7 +120,7 @@ void main(void)     // Einstiegspunkt: main-Funktion. Wird beim Programmstart au
 | **Sozialform**      | Einzelarbeit                                                           |
 | **Auftrag**         | siehe unten                                                            |
 | **Hilfsmittel**     |                                                                        |
-| **Zeitbedarf**      | 20min                                                                  |
+| **Zeitbedarf**      | 30min                                                                  |
 | **Lösungselemente** | Lauffähiges C-Programm                                                 |
 
 a)
@@ -131,3 +131,8 @@ a)
 b)
 
 - Versuche das Programm auch lokal mit Visual Studio Code umzusetzen
+- Lese zuerst die vollständige Beschreibung der C/C++ Erweiterung durch
+  - [Configure VS Code for Microsoft C++](https://code.visualstudio.com/docs/cpp/config-msvc)
+- Bei Bedarf (falls keine Visual Studio Installation) vorliegt, müssen die Build Tools (Compiler) installiert werden
+  - ![Buildtools für Visual Studio](./x_gitres/visual-studio-code-build-tools.png)
+  - [Download](https://visualstudio.microsoft.com/de/downloads/)
