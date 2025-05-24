@@ -131,8 +131,9 @@ a)
 b)
 
 - Versuche das Programm auch lokal mit Visual Studio Code umzusetzen
-- Lese zuerst die vollständige Beschreibung der C/C++ Erweiterung durch
-  - [Configure VS Code for Microsoft C++](https://code.visualstudio.com/docs/cpp/config-msvc)
-- Bei Bedarf (falls keine Visual Studio Installation) vorliegt, müssen die Build Tools (Compiler) installiert werden
-  - ![Buildtools für Visual Studio](./x_gitres/visual-studio-code-build-tools.png)
-  - [Download](https://visualstudio.microsoft.com/de/downloads/)
+- Arbeite das komplette Tutorial zu "Using GCC with MinGW" durch.
+  - Installiere die notwendigen Tools und füge auch den Installationspfad in die `PATH` Umgebungsvariable ein.
+  - [Installationsanleitung](https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites)
+  - [Video zu Installing MinGW to build C++ Code on Windows](https://www.youtube.com/watch?v=oC69vlWofJQ)
+
+> Wichtig: `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain`

@@ -5,7 +5,7 @@
 - [1. Voraussetzungen](#1-voraussetzungen)
   - [1.1. Visual Studio Code](#11-visual-studio-code)
   - [1.2. Extension Draw.io Integration](#12-extension-drawio-integration)
-  - [1.3. Tools für Visual Studio](#13-tools-für-visual-studio)
+  - [1.3. Installation "Using GCC with MinGW"](#13-installation-using-gcc-with-mingw)
   - [1.4. Extension C/C++](#14-extension-cc)
   - [1.5. Extension Material Icon Theme (empfohlen)](#15-extension-material-icon-theme-empfohlen)
   - [1.6. Extension Markdown All in One (empfohlen)](#16-extension-markdown-all-in-one-empfohlen)
@@ -44,13 +44,13 @@ Alternativ stehen auch folgende Möglichkeiten zur Verfügung:
 
 </br>
 
-## 1.3. Tools für Visual Studio
+## 1.3. Installation "Using GCC with MinGW"
 
-Buildtools für Visual Studio 2022
+[Installationsanleitung](https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites)
 
-![Buildtools für Visual Studio](./x_gitres/visual-studio-code-build-tools.png)
+[Installing MinGW to build C++ Code on Windows](https://www.youtube.com/watch?v=oC69vlWofJQ)
 
-[Download](https://visualstudio.microsoft.com/de/downloads/)
+> Wichtig: `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain`
 
 ---
 
