@@ -8,20 +8,26 @@
 
 ## [Lernziele](./lernziele.md)
 
-## [Operatoren](./operatoren.md)
+## [Programmerzeugung](./programmerzeugung.md)
 
-- Arithmetische Operatoren
-- Vergleichsoperatoren
-- Logische Operatoren
-- Zuweisungsoperatoren
+- Werkzeuge
+- Übungsaufgabe Hello World Programm
+
+## [Lexikalische Konventionen in C](./lexikalische-konventionen.md)
+
+- Bezeichner
+- Schlüsselwörter
+- Operatoren
+- Literals (Zahlen, Zeichen, Strings)
+- Kommentare
+- Sonderzeichen / Klammern
 - Übungsaufgaben
 
-## [Typenkonversionen](./typenkonversion.md)
+## [Einführung Ein- und Ausgabe](./ein-ausgabe.md)
 
-- Implizite Typenkonversion
-- Explizite Typenkonversion (Casting)
-- Standard-Methoden für Typenkonversionen
-- Übungsaufgaben
+- Formatierte Ausgabe `prinf()`
+- Formatierte Eingabe `scanf()`
+- Übungsbeispiele
 
 ## [Kontrollstrukturen](./kontrollstrukturen.md)
 

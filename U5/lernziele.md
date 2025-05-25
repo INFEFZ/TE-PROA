@@ -4,11 +4,9 @@
 
 ## Lernziele
 
-- [ ] Können anhand eines Beispiels die Schritte aufzeigen, wie man von einer oder mehreren Quellcodedateien zu einem lauffähigen Programm kommt.
-- [ ] Kennen den Unterschied zwischen einem Compiler-Fehler und einem Linker-Fehler und können dies an einem Beispiel erklären.
-- [ ] Können die wichtigsten Bibliotheksfunktionen für den Aufbau eines C-Programms in eigenen Programmen verwenden und kennen die Arbeitsweise des Präprozessors und können Präprozessor-Anweisungen wie #include und #define in eigenen Programmen verwenden.
-- [ ] Können gemäss dem EVA-Prinzip eine Daten Ein-/Ausgabe mit den entsprechenden Befehlen in eigenen Programmen nutzen sowie kennen sie die wichtigsten Formatierungsmöglichkeiten für die Ein-Ausgabe (printf, scanf) und können diese in eigenen Programmen anwenden.
-- [ ] Können Definition und Initialisierung von Variablen in Programmen richtig anwenden.
-- [ ] Kennen die unterschiedlichen einfachen Datentypen der Sprache C und können diese in Programmen anwenden und können den Sinn des ASCII-Zeichensatzes anhand eines Beispiels darlegen.
-- [ ] Kennen die Begriffe Definition, Deklaration und Initialisierung von Variablen und können dies an einem  Beispiel erklären und kennen das Verhalten einer Konstanten und können dies anhand eines Beispiels erklären.
-- [ ] Kennen den Unterschied zwischen einer literarischen und einer symbolischen Konstanten und können dies anhand eines Beispiels erklären.
+- [ ] Unterschied zwischen einer Bottom-Up und Top-Down Entwicklungsmethode erklären.
+- [ ] Können die wichtigsten Qualitätsanforderungen an eine Software aus Sicht des Anwenders aufzählen sowie die wichtigsten Qualitätsanforderungen an eine Software aus Sicht des Entwicklers aufzählen.
+- [ ] Können die einzelnen Werkzeuge für die Softwareentwicklung benennen.
+- [ ] Können die unterschiedliche Arbeitsweise eines Interpreters und eines Compilers erklären.
+- [ ] Können die Aufgabe des Linkers sowie die Aufgabe des Debuggers schildern.
+- [ ] Kennen die prinzipielle Vorgehensweise für die Entwicklung von Software (V-Modell, Wasserfallmodell) und können die Phasen anhand einer Ablaufskizze ordnen.

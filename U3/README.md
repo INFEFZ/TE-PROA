@@ -10,13 +10,6 @@
 
 - Was lernen wir?
 
-## [Funktionen](./funktionen.md)
-
-- Definition
-- Sinn u. Zweck
-- Darstellung in Diagrammen
-- Übungsaufgaben
-
 ## [Datentypen](./datentypen.md)
 
 - Elementare Datentypen
@@ -29,6 +22,14 @@
 - Datenfeld (Array)
 - Übungsaufgaben
 
+## [Datentypen in C](./datentypen-c.md)
+
+- Elementare Datentypen
+- Modifizierte Datentypen
+- Deklaration u. Initialisierung
+- Konstanten
+- Übungsaufgabe
+
 ## [Datenstrukturen](./datenstrukturen.md)
 
 - Einführung
@@ -36,13 +37,4 @@
 - List
 - Queue
 - Stack
-- Übungsaufgaben
-
-## [Zahlensysteme](./zahlensysteme.md)
-
-- Dezimal
-- Hexadezimal
-- Dual
-- Umwandlungen
-- ASCII-Zeichensatz
 - Übungsaufgaben

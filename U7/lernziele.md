@@ -4,10 +4,11 @@
 
 ## Lernziele
 
-- [ ] Kennen die Elemente von Aktivitätsdiagrammen (Struktogrammen) und können damit imperative Algorithmen korrekt aufzeichnen.
-- [ ] Können annehmende und abweisende Schleifen in Aktivitätsdiagrammen (Struktogrammen) anwenden.
-- [ ] Kennen alle Formen der if-else Anweisung und können diese in Programmen einsetzen.
-- [ ] Kennen alle Formen der switch-Anweisung und können diese in Programmen einsetzen.
-- [ ] Kennen die drei Schleifentypen der Programmiersprache C und können diese in Programmen anwenden.
-- [ ] Kennen den Unterschied der beiden Sprungoperationen break und continue und können diese anhand eines Beispiels erklären.
-- [ ] Können verschachtelte Ablaufstrukturen in korrekter C-Syntax in Programmen verwenden.
+- [ ] Können Ausdrücke mit arithmetischen Grundoperatoren formulieren und in korrektem C-Syntax in Programmen einsetzen.
+- [ ] Kennen sowohl die logischen als auch die Bit-Operationen und können diese in korrektem C-Syntax in Programmen einsetzen.
+- [ ] Können die Vorrangregeln der wichtigsten Operanden in Programmen korrekt anwenden.
+- [ ] Können Inkrement und Dekrement Operatoren für die Entwicklung von C-Programmen einsetzen.
+- [ ] Können die Regeln der Präfix und Postfix Schreibweise anhand eines Beispiels erklären.
+- [ ] Können den Begriff Nebeneffekt anhand eines Beispiels erklären.
+- [ ] Können Ausdrücke mit Operatoren unter der Berücksichtigung der Vorrangregeln, in Programmen korrekt umsetzen.
+- [ ] Kennen die Regeln einer Typenkonvertierung und können diese in Programmen richtig einsetzen.

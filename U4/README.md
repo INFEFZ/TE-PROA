@@ -10,28 +10,18 @@
 
 - Was lernen wir?
 
-## [Grundlagen der Softwareentwicklung](./grundlagen.md)
+## [Zahlensysteme](./zahlensysteme.md)
 
-- Anforderungen
-- Vorgehensmodelle
-- Entwicklungsmethoden
-- Software Entwicklungswerkzeuge
-- Einführung GitHub Codespaces
+- Dezimal
+- Hexadezimal
+- Dual
+- Umwandlungen
+- ASCII-Zeichensatz
 - Übungsaufgaben
 
-## [Einführung in Programmierung C](./einführung.md)
+## [Funktionen](./funktionen.md)
 
-- Entstehungsgeschichte
-- Standardisierung
-- Übungsaufgabe
-
-## [Programmerzeugung](./programmerzeugung.md)
-
-- Werkzeuge
-- Übungsaufgabe Hello World Programm
-
-## [Einführung Ein- und Ausgabe](./ein-ausgabe.md)
-
-- Formatierte Ausgabe `prinf()`
-- Formatierte Eingabe `scanf()`
-- Übungsbeispiele
+- Definition
+- Sinn u. Zweck
+- Darstellung in Diagrammen
+- Übungsaufgaben

@@ -6,6 +6,21 @@
 
 ## Besprechung der Hausaufgaben
 
+## [Typenkonversionen](./typenkonversion.md)
+
+- Implizite Typenkonversion
+- Explizite Typenkonversion (Casting)
+- Standard-Methoden für Typenkonversionen
+- Übungsaufgaben
+
+## [Operatoren](./operatoren.md)
+
+- Arithmetische Operatoren
+- Vergleichsoperatoren
+- Logische Operatoren
+- Zuweisungsoperatoren
+- Übungsaufgaben
+
 ## [Einführung Sprung-Anweisung](./sprung.md)
 
 - break
@@ -22,5 +37,5 @@
 
 ## Übungsprüfung / Simulationsprüfung
 
-- [Übungsprüfung](https://forms.office.com/Pages/ResponsePage.aspx?id=2r4JNiZUtE2es32JBG0NfoRM6hpPO09Jnu2SLZunS95UMFJGUVowWFQ4SFIwT0hJS1YzSjZUTjdVTC4u)
+- Übungsaufgaben
 - Besprechung der Lösungen

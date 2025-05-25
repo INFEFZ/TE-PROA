@@ -8,20 +8,17 @@
 
 ## [Lernziele](./lernziele.md)
 
-## [Lexikalische Konventionen in C](./lexikalische-konventionen.md)
+## [Grundlagen der Softwareentwicklung](./grundlagen.md)
 
-- Bezeichner
-- Schlüsselwörter
-- Operatoren
-- Literals (Zahlen, Zeichen, Strings)
-- Kommentare
-- Sonderzeichen / Klammern
+- Anforderungen
+- Vorgehensmodelle
+- Entwicklungsmethoden
+- Software Entwicklungswerkzeuge
+- Einführung GitHub Codespaces
 - Übungsaufgaben
 
-## [Datentypen in C](./datentypen.md)
+## [Einführung in Programmierung C](./einführung.md)
 
-- Elementare Datentypen
-- Modifizierte Datentypen
-- Deklaration u. Initialisierung
-- Konstanten
+- Entstehungsgeschichte
+- Standardisierung
 - Übungsaufgabe
