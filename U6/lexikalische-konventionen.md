@@ -25,7 +25,7 @@
     - [1.7.1. Semikolon (`;`)](#171-semikolon-)
     - [1.7.2. Klammern (`()`, `{}`, `[]`)](#172-klammern---)
 - [2. Aufgaben](#2-aufgaben)
-  - [2.1. Aufgabe Operatoren](#21-aufgabe-operatoren)
+  - [2.1. Aufgabe Literale](#21-aufgabe-literale)
 
 ---
 
@@ -267,7 +267,7 @@ if (a > b) {
 
 # 2. Aufgaben
 
-## 2.1. Aufgabe Operatoren
+## 2.1. Aufgabe Literale
 
 | **Vorgabe**         | **Beschreibung**                                               |
 | :------------------ | :------------------------------------------------------------- |
@@ -280,12 +280,12 @@ if (a > b) {
 | **Zeitbedarf**      | 20in                                                           |
 | **Lösungselemente** |                                                                |
 
-a) Bezeichner und Schlüsselwörter
+a) **Bezeichner und Schlüsselwörter:**
 
 - Erstelle eine Liste mit fünf gültigen und fünf ungültigen Bezeichnern.
 - Begründe, warum die ungültigen Bezeichner nicht erlaubt sind.
 
-b) Literals und Datentypen
+b) **Literals und Datentypen:**
 
 - Deklariere drei Variablen:
   - Eine Ganzzahl mit dem Wert 100 (Verwende ein Dezimalliteral)
@@ -294,7 +294,7 @@ b) Literals und Datentypen
 
 Weise den Variablen Werte zu und gib diese auf der Konsole aus.
 
-c) Kommentare
+c) **Kommentare:**
 
 - Schreibe einen Code, der eine Zahl von der Benutzereingabe entgegennimmt und überprüft, ob sie eine gerade oder ungerade Zahl ist.
 - Kommentiere deinen Code entsprechend, damit er für andere Programmierer verständlich ist.

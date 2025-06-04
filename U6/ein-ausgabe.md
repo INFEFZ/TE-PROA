@@ -2,12 +2,25 @@
 | --------------------------- | ------------------------ | -------------------------------------- |
 | **Elektrotechniker/-in HF** | **Programmiertechnik A** | ![IPSO Logo](./x_gitres/ipso_logo.png) |
 
-# Ein- und Ausgabe
+- [1. Ein- und Ausgabe](#1-ein--und-ausgabe)
+  - [1.1. Die \<stdio.h\> Datei](#11-die-stdioh-datei)
+  - [1.2. Ausgabe mit printf() Funktion](#12-ausgabe-mit-printf-funktion)
+  - [1.3. Eingabe mit scanf()](#13-eingabe-mit-scanf)
+    - [1.3.1. Beispiel](#131-beispiel)
+  - [1.4. Formatierte Ein- und Ausgabe](#14-formatierte-ein--und-ausgabe)
+- [2. Aufgaben](#2-aufgaben)
+  - [2.1. E-Book, Kapitel 2 - Einfache Beispielprogramme](#21-e-book-kapitel-2---einfache-beispielprogramme)
+  - [2.2. Ein- und Ausgabe](#22-ein--und-ausgabe)
+  - [2.3. Aufgabe Datentypen (URI)](#23-aufgabe-datentypen-uri)
 
-## Die <stdio.h> Datei
+---
 
-- Die Datei stdio.h ist eine Header-Datei in der Programmiersprache C, die zur Standardbibliothek (Standard Input/Output) gehört.
-- Sie stellt Funktionen und Makros zur Verfügung, mit denen du Ein- und Ausgaben durchführen kannst – z.B. das Lesen von der Tastatur oder das Schreiben auf den Bildschirm.
+# 1. Ein- und Ausgabe
+
+## 1.1. Die <stdio.h> Datei
+
+- Die Datei `stdio.h` ist eine Header-Datei in der Programmiersprache C, die zur **Standardbibliothek** (Standard Input/Output) gehört.
+- Sie stellt **Funktionen** und **Makros** zur Verfügung, mit denen du Ein- und Ausgaben durchführen kannst – z.B. das Lesen von der Tastatur oder das Schreiben auf den Bildschirm.
 
 Diese Datei enthält die Deklarationen für viele zentrale Funktionen wie:
 
@@ -20,7 +33,7 @@ Diese Datei enthält die Deklarationen für viele zentrale Funktionen wie:
 | `fprintf(), fscanf()` | Formatierte Datei-Ein-/Ausgabe       |
 | `fclose()`            | Datei schliessen                     |
 
-## Ausgabe mit printf() Funktion
+## 1.2. Ausgabe mit printf() Funktion
 
 - **`printf()`**
   - Ist eine Funktion zur Ausgabe, die es ermöglicht, formatierte Daten auf dem Bildschirm anzuzeigen.
@@ -29,7 +42,7 @@ Diese Datei enthält die Deklarationen für viele zentrale Funktionen wie:
     - gibt eine Ganzzahl aus.
   - [cppreference.com](https://en.cppreference.com/w/c/io/fprintf)
 
-## Eingabe mit scanf()
+## 1.3. Eingabe mit scanf()
 
 - **`scanf()`**
   - Eine Funktion zur Eingabe, die es ermöglicht, Werte verschiedener Datentypen von der Benutzereingabe zu lesen.
@@ -38,7 +51,7 @@ Diese Datei enthält die Deklarationen für viele zentrale Funktionen wie:
     - liest eine Ganzzahl ein.
     - [cppreference.com](https://en.cppreference.com/w/c/io/fscanf)
 
-### Beispiel
+### 1.3.1. Beispiel
 
 ```c
 #include <stdio.h>
@@ -76,7 +89,7 @@ int main() {
 }
 ```
 
-## Formatierte Ein- und Ausgabe
+## 1.4. Formatierte Ein- und Ausgabe
 
 In der Programmiersprache C bezeichnet man mit **„Literals für den Ausgabestring“** (auch Format-Specifiers) die speziellen Platzhalter, die in Funktionen wie `printf()` oder `scanf()` verwendet werden, um anzugeben, welcher Datentyp ausgegeben oder eingelesen wird.
 
@@ -134,7 +147,7 @@ printf("%.2f\n", 3.14159);    // nur 2 Nachkommastellen
 
 ---
 
-## 2.1. Ein- und Ausgabe
+## 2.2. Ein- und Ausgabe
 
 | **Vorgabe**         | **Beschreibung**                                |
 | :------------------ | :---------------------------------------------- |
@@ -147,12 +160,12 @@ printf("%.2f\n", 3.14159);    // nur 2 Nachkommastellen
 | **Zeitbedarf**      | 30min                                           |
 | **Lösungselemente** | Lauffähiges korrektes Programm                  |
 
-- Schreibe ein C-Programm welches vom Benutzer 2 Zahlen fragt, diese zusammen zählt und danach ausgibt.
-- Mache das Struktogramm oder PAP dazu.
+- Schreibe ein C-Programm welches vom Benutzer **2 Dezimalzahlen** fragt, diese zusammen zählt und danach das Resultat mit 2 Nachkommastellen ausgibt.
+- Mache das Struktogramm oder den PAP dazu.
 
 ---
 
-## 2.1. Aufgabe Datentypen (URI)
+## 2.3. Aufgabe Datentypen (URI)
 
 | **Vorgabe**         | **Beschreibung**                                |
 | :------------------ | :---------------------------------------------- |
@@ -165,9 +178,16 @@ printf("%.2f\n", 3.14159);    // nur 2 Nachkommastellen
 | **Zeitbedarf**      | 30min                                           |
 | **Lösungselemente** | Lauffähiges korrektes Programm                  |
 
-- Schreibe ein Programm, das eine Zählvariable, eine Konstante PI (3.141...) und den Algorithmus U=R*I enthält.
+a)
+
+- Schreibe ein Programm, das eine Zählvariable, eine Konstante PI (3.141...) und den Algorithmus **U=R*I** enthält.
 - Am Ende sollen die Zählvariable, PI und der Wert von U ausgegeben werden.
 - Wähle passende Datentypen.
 - Die Zählvariable soll einmal um eins erhöht werden.
 - Die Werte für R und I sollen vorgegeben sein.
 - Berechne U und gib das Resultat, PI und die Zählvariable Format gerecht aus
+
+b)
+
+- Erweitere das Programm, sodass die Dezimalwerte von R und I von Benutzer eingegeben werden können.
+- Das Resultat soll mit 3 Nachkommastellen ausgegeben werden.

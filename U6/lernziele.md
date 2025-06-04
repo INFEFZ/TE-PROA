@@ -4,9 +4,6 @@
 
 ## Lernziele
 
-- [ ] Können die in den einzelnen Phasen der Softwareentwicklung notwendigen Aufgaben und Ergebnisse beschreiben.
-- [ ] Können anhand eines Beispiels die Schritte aufzeigen, wie man von einer oder mehreren Quellcodedateien zu einem lauffähigen Programm kommt.
-- [ ] Kennen den Unterschied zwischen einem Compiler-Fehler und einem Linker-Fehler und können dies an einem Beispiel erklären.
 - [ ] Können die wichtigsten Bibliotheksfunktionen für den Aufbau eines C-Programms in eigenen Programmen verwenden und kennen die Arbeitsweise des Präprozessors und können Präprozessor-Anweisungen wie #include und #define in eigenen Programmen verwenden.
 - [ ] Können gemäss dem EVA-Prinzip eine Daten Ein-/Ausgabe mit den entsprechenden Befehlen in eigenen Programmen nutzen sowie kennen sie die wichtigsten Formatierungsmöglichkeiten für die Ein-Ausgabe (printf, scanf) und können diese in eigenen Programmen anwenden.
 - [ ] Können Definition und Initialisierung von Variablen in Programmen richtig anwenden.

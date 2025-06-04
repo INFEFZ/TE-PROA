@@ -13,7 +13,8 @@
   - [1.8. Compiler-Fehler vs. Linker-Fehler](#18-compiler-fehler-vs-linker-fehler)
 - [2. Aufgaben](#2-aufgaben)
   - [2.1. Entwicklungswerkzeuge](#21-entwicklungswerkzeuge)
-  - [2.2. Hello World Programm](#22-hello-world-programm)
+  - [2.2. GitHub Codespace einrichten und konfigurieren](#22-github-codespace-einrichten-und-konfigurieren)
+  - [2.3. Programm lokal ausführen (Optional)](#23-programm-lokal-ausführen-optional)
 
 ---
 
@@ -99,10 +100,10 @@ void main(void)     // Einstiegspunkt: main-Funktion. Wird beim Programmstart au
 | **Lösungselemente** | Präsentation (PowerPoint oder Markdown)                                        |
 
 - Identifiziere alle wichtigen Informationen und Anwendungen zu den nachfolgend aufgeführten Entwicklungswerkzeugen gemäss der Zuteilung.
-  - Editor / IDE
-  - Compiler
-  - Linker
-  - Debugger
+  - **Editor / IDE**
+  - **Compiler**
+  - **Linker**
+  - **Debugger**
   
 - Fasse die Punkte mittels konkreten Anwendungsbeispielen oder Grafiken zusammen.
 - Stelle die Ergebnisse mittels einer Kurzpräsentation der Klasse vor.
@@ -111,7 +112,51 @@ void main(void)     // Einstiegspunkt: main-Funktion. Wird beim Programmstart au
 
 ---
 
-## 2.2. Hello World Programm
+## 2.2. GitHub Codespace einrichten und konfigurieren
+
+| **Vorgabe**         | **Beschreibung**                                                                         |
+| :------------------ | :--------------------------------------------------------------------------------------- |
+| **Lernziele**       | Kann GitHub Codespace einrichten                                                         |
+|                     | Kann Verzeichnisse und Dateien im Codespace erstellen                                    |
+|                     | Kann im Editor ein Programmcode eingeben und das Programm ausführen                      |
+|                     | Kann ein Programm im Debug-Modus ausführen und die Verädnerungen der Variablen verfolgen |
+| **Sozialform**      | Einzelarbeit                                                                             |
+| **Auftrag**         | siehe unten                                                                              |
+| **Hilfsmittel**     |                                                                                          |
+| **Zeitbedarf**      | 40min                                                                                    |
+| **Lösungselemente** | Lauffähiges C-Programm                                                                   |
+
+**Aufgabe 1:**
+
+GitHub Codespaces ist eine **Cloud-basierte Entwicklungsumgebung**, die direkt in GitHub integriert ist und keine lokale Installation benötigt.
+> **GitHub Codespace gibt eine Visual Studio Code Instanz mit.**
+
+Bitte dein GitHub Codespace wie folgt einrichten:
+
+1. Erstelle ein [GitHub-Account](https://github.com/), falls noch nicht verhanden.
+2. Rufe die [GitHub Codespace](https://github.com/codespaces) Seite auf.
+3. Erstelle einen leeren Codespace ![Blank Template](./x_gitres/github-codespaces-blank.png)
+4. Gib deinem Codespace einen Namen z.B. PROT-A [Rename Codespace](./x_gitres/github-codespaces-rename.png)
+5. Installiere in deinem Codespace Projekt die Extensions für die Programmiersprache C/C++ ![Extensions](./x_gitres/github-codespaces-extensions.png)
+6. Erstelle nun für jede Unterrichtsunit ein Projektverzeichnis ![Projektverzeichnis](./x_gitres/github-codespaces-folders.png)
+7. Erstelle eine neue Datei z.B. `main.c` ![Datei](./x_gitres/github-codespaces-file.png)
+8. Schreibe nun im Editor ein Programmcode ![Programmcode](./x_gitres/github-codespaces-code.png)
+9. Starte nun das Programm ![Terminalausgabe](./x_gitres/github-codespaces-run.png)
+10. Prüfe die Ausgabe unten im Terminalfenster. ![Terminalausgabe](./x_gitres/github-codespaces-terminal.png)
+
+**Aufgabe 2:**
+
+Das Programm soll erweitert werden und dann in Einzelschritten (Debugger) ausgeführt werden.
+
+1. Erweitere das Programm wie folgt. ![Erweitert](./x_gitres/github-codespaces-program-extend.png)
+2. Setze nun einen Breakpoint (roter Punkt) und starte das Programm mit **C/C++ Datei debuggen** [Debuggen](./x_gitres/github-codespaces-debug.png)
+3. Führe das Programm in Einzelschritten bis zum Ende durch und überwache die Veränderungen der Variablen im linken Variablenfenster
+
+---
+
+</br>
+
+## 2.3. Programm lokal ausführen (Optional)
 
 | **Vorgabe**         | **Beschreibung**                                                       |
 | :------------------ | :--------------------------------------------------------------------- |
@@ -122,13 +167,6 @@ void main(void)     // Einstiegspunkt: main-Funktion. Wird beim Programmstart au
 | **Hilfsmittel**     |                                                                        |
 | **Zeitbedarf**      | 30min                                                                  |
 | **Lösungselemente** | Lauffähiges C-Programm                                                 |
-
-a)
-
-- Erstelle auf GitHub Codespace das obige Hello World Programm
-- Führe das Programm aus und prüfen die Terminal-Ausgabe
-
-b)
 
 - Versuche das Programm auch lokal mit Visual Studio Code umzusetzen
 - Arbeite das komplette Tutorial zu "Using GCC with MinGW" durch.

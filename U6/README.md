@@ -11,7 +11,10 @@
 ## [Programmerzeugung](./programmerzeugung.md)
 
 - Werkzeuge
-- Übungsaufgabe Hello World Programm
+  - GitHub Codespace
+  - Editor
+  - Debugger
+- Übungsaufgaben
 
 ## [Lexikalische Konventionen in C](./lexikalische-konventionen.md)
 

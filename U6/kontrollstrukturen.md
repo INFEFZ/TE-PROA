@@ -15,6 +15,8 @@
       - [1.3.4.1. break](#1341-break)
       - [1.3.4.2. continue](#1342-continue)
 - [2. Aufgaben](#2-aufgaben)
+  - [2.1. Grössere Zahl ermitteln (if)](#21-grössere-zahl-ermitteln-if)
+  - [2.1. Mehrfachauswahl (if else if, switch)](#21-mehrfachauswahl-if-else-if-switch)
   - [2.1. Iterative Ablaufstrukturen (Mittelwert)](#21-iterative-ablaufstrukturen-mittelwert)
 
 ---
@@ -80,9 +82,9 @@ Erläuterung:
 int main() {
     int a = 15;
     
-    // Wenn a größer als 10 ist, wird dies ausgegeben
+    // Wenn a grösser als 10 ist, wird dies ausgegeben
     if (a > 10) {
-        printf("a ist größer als 10.\n");
+        printf("a ist grösser als 10.\n");
     } else {
         printf("a ist kleiner oder gleich 10.\n");
     }
@@ -93,7 +95,7 @@ int main() {
 
 Erläuterung:
 
-- Wenn der Wert von a größer als 10 ist, wird die erste Nachricht ausgegeben.
+- Wenn der Wert von a grösser als 10 ist, wird die erste Nachricht ausgegeben.
 - Falls die Bedingung nicht zutrifft, wird die Nachricht im else-Block ausgeführt.
 
 ### 1.2.2. switch-Anweisung
@@ -261,7 +263,7 @@ int main() {
 
 # 2. Aufgaben
 
-## 2.1. Iterative Ablaufstrukturen (Mittelwert)
+## 2.1. Grössere Zahl ermitteln (if)
 
 | **Vorgabe**         | **Beschreibung**                                                      |
 | :------------------ | :-------------------------------------------------------------------- |
@@ -274,8 +276,50 @@ int main() {
 | **Zeitbedarf**      | 20min                                                                 |
 | **Lösungselemente** | Korrekte und lauffähige Implementation                                |
 
-- Programmiere folgendes Programm
-  - Einlesen einer Zahl vom User (Console)
+Programmiere folgendes Programm:
+
+- Einlesen von zwei Ganzzahlen vom User (Konsole)
+- Gebe die grössere Zahl in der Konsole aus z.B. `Die Grössere Zahl ist: 10`.
+
+---
+
+## 2.1. Mehrfachauswahl (if else if, switch)
+
+| **Vorgabe**         | **Beschreibung**                                                      |
+| :------------------ | :-------------------------------------------------------------------- |
+| **Lernziele**       | Kennt die Ablaufstrukturen in Programmiersprache C                    |
+|                     | Kann einige Ablaufstruktur nach Vorgabe implementieren                |
+|                     | Kann eine effiziente Ablaufstrukturen problemlösungsbezogen bestimmen |
+| **Sozialform**      | Partnerarbeit                                                         |
+| **Auftrag**         | siehe unten                                                           |
+| **Hilfsmittel**     |                                                                       |
+| **Zeitbedarf**      | 20min                                                                 |
+| **Lösungselemente** | Korrekte und lauffähige Implementation                                |
+
+Programmiere folgendes Programm:
+
+- Das Programm fordert den Benutzer auf eine Zahl zwischen 1 bis 7 einzugeben.
+- Anschliessend soll der Wochentag Montag = 1 bis Sonntag = 7 ausgegeben werden.
+- Falls der Benutzer eine ungültige Zahl eingibt, soll das Programm eine Fehlermeldung ausgeben.
+- Löse die **Mehrfachwauswahl** zuerst mit **`if else if`** und danach mit dem **`swich`** Befehl
+
+---
+
+## 2.1. Iterative Ablaufstrukturen (Mittelwert)
+
+| **Vorgabe**         | **Beschreibung**                                                      |
+| :------------------ | :-------------------------------------------------------------------- |
+| **Lernziele**       | Kennt die Ablaufstrukturen in Programmiersprache C                    |
+|                     | Kann einige Ablaufstruktur nach Vorgabe implementieren                |
+|                     | Kann eine effiziente Ablaufstrukturen problemlösungsbezogen bestimmen |
+| **Sozialform**      | Partnerarbeit                                                         |
+| **Auftrag**         | siehe unten                                                           |
+| **Hilfsmittel**     |                                                                       |
+| **Zeitbedarf**      | 30min                                                                 |
+| **Lösungselemente** | Korrekte und lauffähige Implementation                                |
+
+- Programmiere folgendes Programm:
+  - Einlesen einer Zahl vom User (Konsole)
   - Einlesen von n-Zahlen in einer Schleife bis der User **«q»** eingibt.
   - Ausgabe der des Mittelwertes der n-Zahlen
 
