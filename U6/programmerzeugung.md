@@ -136,7 +136,7 @@ Bitte dein GitHub Codespace wie folgt einrichten:
 1. Erstelle ein [GitHub-Account](https://github.com/), falls noch nicht verhanden.
 2. Rufe die [GitHub Codespace](https://github.com/codespaces) Seite auf.
 3. Erstelle einen leeren Codespace ![Blank Template](./x_gitres/github-codespaces-blank.png)
-4. Gib deinem Codespace einen Namen z.B. PROT-A ![Rename Codespace](./x_gitres/github-codespaces-rename.png)
+4. Gib deinem Codespace einen Namen z.B. **PROT-A** ![Rename Codespace](./x_gitres/github-codespaces-rename.png)
 5. Installiere in deinem Codespace Projekt die Extensions für die Programmiersprache C/C++ ![Extensions](./x_gitres/github-codespaces-extensions.png)
 6. Erstelle nun für jede Unterrichtsunit ein Projektverzeichnis ![Projektverzeichnis](./x_gitres/github-codespaces-folders.png)
 7. Erstelle eine neue Datei z.B. `main.c` ![Datei](./x_gitres/github-codespaces-file.png)

@@ -277,24 +277,23 @@ if (a > b) {
 | **Sozialform**      | Einzelarbeit                                                   |
 | **Auftrag**         | siehe unten                                                    |
 | **Hilfsmittel**     |                                                                |
-| **Zeitbedarf**      | 20in                                                           |
+| **Zeitbedarf**      | 20min                                                          |
 | **Lösungselemente** |                                                                |
 
 a) **Bezeichner und Schlüsselwörter:**
 
-- Erstelle eine Liste mit fünf gültigen und fünf ungültigen Bezeichnern.
+- Erstelle eine Liste mit fünf gültigen und fünf ungültigen **Bezeichnern**.
 - Begründe, warum die ungültigen Bezeichner nicht erlaubt sind.
 
 b) **Literals und Datentypen:**
 
 - Deklariere drei Variablen:
-  - Eine Ganzzahl mit dem Wert 100 (Verwende ein Dezimalliteral)
-  - Eine Fliesskommazahl mit dem Wert 3.14 (Verwende ein Fliesskomma-Literal)
-  - Ein Zeichen mit dem Wert 'A' (Verwende ein Zeichenliteral)
+  - Eine **Ganzzahl** mit dem Wert `100` (Verwende ein Dezimalliteral)
+  - Eine **Fliesskommazahl** mit dem Wert `3.14` (Verwende ein Fliesskomma-Literal)
+  - Ein **Zeichen** mit dem Wert `'A'` (Verwende ein Zeichenliteral)
 
 Weise den Variablen Werte zu und gib diese auf der Konsole aus.
 
 c) **Kommentare:**
 
-- Schreibe einen Code, der eine Zahl von der Benutzereingabe entgegennimmt und überprüft, ob sie eine gerade oder ungerade Zahl ist.
 - Kommentiere deinen Code entsprechend, damit er für andere Programmierer verständlich ist.
