@@ -149,7 +149,7 @@ Bitte dein GitHub Codespace wie folgt einrichten:
 Das Programm soll erweitert werden und dann in Einzelschritten (Debugger) ausgeführt werden.
 
 1. Erweitere das Programm wie folgt. ![Erweitert](./x_gitres/github-codespaces-program-extend.png)
-2. Setze nun einen Breakpoint (roter Punkt) und starte das Programm mit **C/C++ Datei debuggen** [Debuggen](./x_gitres/github-codespaces-debug.png)
+2. Setze nun einen Breakpoint (roter Punkt) und starte das Programm mit **C/C++ Datei debuggen** ![Debuggen](./x_gitres/github-codespaces-debug.png)
 3. Führe das Programm in Einzelschritten bis zum Ende durch und überwache die Veränderungen der Variablen im linken Variablenfenster
 
 ---
