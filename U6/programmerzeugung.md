@@ -41,21 +41,21 @@
 ## 1.3. Präprozessor (#Include, *.h-Dateien)
 
 - `#Include`: Eine **Präprozessoranweisung**, die verwendet wird, um Header-Dateien in ein C-Programm einzufügen.
-- Diese Header-Dateien enthalten Deklarationen von Funktionen und Makros, die im Programm verwendet werden können. Beispiel: `#include <stdio.h>` fügt die Standard-Input-Output-Bibliothek hinzu, die Funktionen wie `printf` und `scanf` enthält.
+- Diese **Header-Dateien** enthalten Deklarationen von **Funktionen** und **Makros**, die im Programm verwendet werden können. Beispiel: **`#include <stdio.h>`** fügt die Standard-Input-Output-Bibliothek hinzu, die Funktionen wie `printf` und `scanf` enthält.
 - .h-Dateien: Header-Dateien mit der Erweiterung `.h` enthalten Deklarationen von Funktionen, Makros und manchmal Typdefinitionen, die in verschiedenen Teilen des Programms oder in verschiedenen Programmen wiederverwendet werden können.
 
 ## 1.4. Standard Library, Compiler, Linker
 
-- Standard Library: Eine Sammlung vordefinierter Funktionen, die verschiedene Aufgaben wie Ein-/Ausgabeoperationen, String-Manipulation, mathematische Berechnungen und mehr unterstützen.
-- Compiler: Ein Programm, das den Quellcode eines C-Programms in Maschinensprache (Binärcode) übersetzt, die vom Computer direkt ausgeführt werden kann.
-- Linker: Ein Werkzeug, das mehrere Objektdateien, die vom Compiler erzeugt wurden, zu einer einzigen ausführbaren Datei zusammenfügt und dabei sicherstellt, dass alle Referenzen zwischen den Dateien korrekt aufgelöst werden.
+- **Standard Library**: Eine Sammlung vordefinierter Funktionen, die verschiedene Aufgaben wie Ein-/Ausgabeoperationen, String-Manipulation, mathematische Berechnungen und mehr unterstützen.
+- **Compiler**: Ein Programm, das den Quellcode eines C-Programms in Maschinensprache (Binärcode) übersetzt, die vom Computer direkt ausgeführt werden kann.
+- **Linker**: Ein Werkzeug, das mehrere Objektdateien, die vom Compiler erzeugt wurden, zu einer einzigen ausführbaren Datei zusammenfügt und dabei sicherstellt, dass alle Referenzen zwischen den Dateien korrekt aufgelöst werden.
 
 ## 1.5. Bibliotheksfunktionen und Präprozessor-Anweisungen
 
 - Bibliotheksfunktionen (Standard Library): C bietet eine umfangreiche Standardbibliothek mit Funktionen für verschiedenste Aufgaben (z.B. `printf`, `scanf`, `strcpy`, `malloc`).
 - Präprozessor-Anweisungen:  
-  - `#include`: Bindet den Inhalt einer Header-Datei ein.
-  - `#define`: Definiert Makros oder Konstanten.
+  - **`#include`**: Bindet den Inhalt einer Header-Datei ein.
+  - **`#define`**: Definiert Makros oder Konstanten.
 
 ## 1.6. Das Hello World Programm
 
@@ -71,14 +71,14 @@ void main(void)     // Einstiegspunkt: main-Funktion. Wird beim Programmstart au
 ## 1.7. Schritte von Quellcodedateien zum lauffähigen Programm
 
 1. **Schreiben des Quellcodes**: Der Entwickler schreibt den Quellcode in einer oder mehreren Dateien, typischerweise in einer Entwicklungsumgebung.
-2. **Präprozessierung**: Präprozessor-Anweisungen wie `#include` und `#define` werden aufgelöst. Zum Beispiel werden Inhalte von Header-Dateien in den Quellcode eingefügt.
+2. **Präprozessierung**: Präprozessor-Anweisungen wie **`#include`** und **`#define`** werden aufgelöst. Zum Beispiel werden Inhalte von Header-Dateien in den Quellcode eingefügt.
 3. **Kompilierung**: Der Compiler übersetzt den Quellcode in Objektcode (Maschinencode, der noch externe Referenzen enthalten kann).
 4. **Linking**: Der Linker kombiniert Objektcode aus verschiedenen Quellen, löst Referenzen auf und erzeugt eine ausführbare Datei.
 5. **Ausführung**: Das fertige Programm kann vom Benutzer gestartet und genutzt werden.
 
 ## 1.8. Compiler-Fehler vs. Linker-Fehler
 
-- **Compiler-Fehler**: Tritt auf, wenn der Compiler auf Probleme im **Quellcode** stößt, die ihn am erfolgreichen Kompilieren hindern. Beispiele hierfür sind **Syntaxfehler**, **Typ-Konflikte** oder **nicht deklarierte Variablen**.
+- **Compiler-Fehler**: Tritt auf, wenn der Compiler auf Probleme im **Quellcode** stösst, die ihn am erfolgreichen Kompilieren hindern. Beispiele hierfür sind **Syntaxfehler**, **Typ-Konflikte** oder **nicht deklarierte Variablen**.
 - **Linker-Fehler**: Tritt auf, wenn der Linker nicht alle **Referenzen** zwischen den Objektdateien auflösen kann, z.B. wenn eine Funktion aufgerufen wird, die nirgendwo definiert ist.
 
 ---

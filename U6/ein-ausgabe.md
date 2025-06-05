@@ -19,19 +19,19 @@
 
 ## 1.1. Die <stdio.h> Datei
 
-- Die Datei `stdio.h` ist eine Header-Datei in der Programmiersprache C, die zur **Standardbibliothek** (Standard Input/Output) gehört.
+- Die Datei **`stdio.h`** ist eine Header-Datei in der Programmiersprache C, die zur **Standardbibliothek** (Standard Input/Output) gehört.
 - Sie stellt **Funktionen** und **Makros** zur Verfügung, mit denen du Ein- und Ausgaben durchführen kannst – z.B. das Lesen von der Tastatur oder das Schreiben auf den Bildschirm.
 
 Diese Datei enthält die Deklarationen für viele zentrale Funktionen wie:
 
-| **Funktion**          | **Zweck**                            |
-| --------------------- | ------------------------------------ |
-| `printf()`            | Text auf den Bildschirm **ausgeben** |
-| `scanf()`             | Eingaben von der Tastatur **lesen**  |
-| `fopen()`             | Datei öffnen                         |
-| `fgets(), fputs()`    | Zeilenweise Datei lesen/schreiben    |
-| `fprintf(), fscanf()` | Formatierte Datei-Ein-/Ausgabe       |
-| `fclose()`            | Datei schliessen                     |
+| **Funktion**              | **Zweck**                            |
+| ------------------------- | ------------------------------------ |
+| **`printf()`**            | Text auf den Bildschirm **ausgeben** |
+| **`scanf()`**             | Eingaben von der Tastatur **lesen**  |
+| **`fopen()`**             | Datei öffnen                         |
+| **`fgets(), fputs()`**    | Zeilenweise Datei lesen/schreiben    |
+| **`fprintf(), fscanf()`** | Formatierte Datei-Ein-/Ausgabe       |
+| **`fclose()`**            | Datei schliessen                     |
 
 ## 1.2. Ausgabe mit printf() Funktion
 
@@ -91,7 +91,7 @@ int main() {
 
 ## 1.4. Formatierte Ein- und Ausgabe
 
-In der Programmiersprache C bezeichnet man mit **„Literals für den Ausgabestring“** (auch Format-Specifiers) die speziellen Platzhalter, die in Funktionen wie `printf()` oder `scanf()` verwendet werden, um anzugeben, welcher Datentyp ausgegeben oder eingelesen wird.
+In der Programmiersprache C bezeichnet man mit **„Literals für den Ausgabestring“** (auch Format-Specifiers) die speziellen Platzhalter, die in Funktionen wie **`printf()`** oder **`scanf()`** verwendet werden, um anzugeben, welcher Datentyp ausgegeben oder eingelesen wird.
 
 | **Literal** | **Bedeutung**                 | **Beispielwert** |
 | ----------- | ----------------------------- | ---------------- |
@@ -180,14 +180,14 @@ printf("%.2f\n", 3.14159);    // nur 2 Nachkommastellen
 
 a)
 
-- Schreibe ein Programm, das eine Zählvariable, eine Konstante PI (3.141...) und den Algorithmus **U=R*I** enthält.
-- Am Ende sollen die Zählvariable, PI und der Wert von U ausgegeben werden.
+- Schreibe ein Programm, das eine Zählvariable, eine Konstante `PI` (3.141...) und den Algorithmus **U=R*I** enthält.
+- Am Ende sollen die Zählvariable, `PI` und der Wert von `U` ausgegeben werden.
 - Wähle passende Datentypen.
 - Die Zählvariable soll einmal um eins erhöht werden.
-- Die Werte für R und I sollen vorgegeben sein.
-- Berechne U und gib das Resultat, PI und die Zählvariable Format gerecht aus
+- Die Werte für `R` und `I` sollen vorgegeben sein.
+- Berechne `U` und gib das Resultat, `PI` und die Zählvariable Format gerecht aus
 
 b)
 
-- Erweitere das Programm, sodass die Dezimalwerte von R und I von Benutzer eingegeben werden können.
+- Erweitere das Programm, sodass die Dezimalwerte von `R` und `I` von Benutzer eingegeben werden können.
 - Das Resultat soll mit 3 Nachkommastellen ausgegeben werden.
