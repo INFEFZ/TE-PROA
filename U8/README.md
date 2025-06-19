@@ -9,7 +9,15 @@
 ## Prüfung
 
 - Theorie, Microsoft Forms
-- 120 min
+- Allgemeine Fragen zu folgenden Themen
+  - Algorithmus
+  - Struktogramm, PAP u. UML-Aktivitätsdiagramm
+  - Programmerstellung
+  - Grundstruktur eines C-Programms
+  - Datentypen u. Variablen
+  - Kontrollstrukturen (if, while, for)
+- Ohne Unterlagen (kein Internet, Chatgpt usw.)
+- Dauer: 50 min
 
 ## Ausblick Programmiertechnik B
 
