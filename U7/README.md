@@ -35,7 +35,8 @@
 - Parameter
 - Standardbibliotheken
 
-## Übungsprüfung / Simulationsprüfung
+## [Prüfungsvorbereitung (w3school)](pruefungsvorbereitung.md)
 
-- Übungsaufgaben
-- Besprechung der Lösungen
+- Tutorial
+- Exercises
+- Quiz

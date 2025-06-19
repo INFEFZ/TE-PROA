@@ -21,7 +21,8 @@
   - [1.11. Beispielprogramm mit Funktion (GitHub)](#111-beispielprogramm-mit-funktion-github)
   - [1.12. Beispielprogramm mit mehreren Funktionen (GitHub)](#112-beispielprogramm-mit-mehreren-funktionen-github)
 - [2. Aufgaben](#2-aufgaben)
-  - [2.1. Mathematikbibliothek implementieren](#21-mathematikbibliothek-implementieren)
+  - [2.1. C-Tutorial (Functions)](#21-c-tutorial-functions)
+  - [2.2. Mathematikbibliothek implementieren](#22-mathematikbibliothek-implementieren)
 
 ---
 
@@ -342,14 +343,31 @@ void main(void) {
 
 # 2. Aufgaben
 
-## 2.1. Mathematikbibliothek implementieren
+## 2.1. C-Tutorial (Functions)
+
+| **Vorgabe**         | **Beschreibung**                                                        |
+| :------------------ | :---------------------------------------------------------------------- |
+| **Lernziele**       | Kennt die Möglichkeiten zur Modularisierung und Strukturierung von Code |
+|                     | Kennt die Möglichkeit an Funktionen Parametern zu übergeben             |
+|                     | Kann Funktionen korrekt aufrufen und das Funktionsergebnis speichern    |
+| **Sozialform**      | Einzelarbeit                                                            |
+| **Auftrag**         | siehe unten                                                             |
+| **Hilfsmittel**     |                                                                         |
+| **Zeitbedarf**      | 10min                                                                   |
+| **Lösungselemente** |                                                                         |
+
+Rufe die [W3Schhol C-Functions](https://www.w3schools.com/c/c_functions.php) Seite auf und arbeite das Kapitel C-Functions durch.
+
+---
+
+## 2.2. Mathematikbibliothek implementieren
 
 | **Vorgabe**         | **Beschreibung**                                                        |
 | :------------------ | :---------------------------------------------------------------------- |
 | **Lernziele**       | Kennt die Möglichkeiten zur Modularisierung und Strukturierung von Code |
 |                     | Kann Funktionen mit und ohne Parameter implementieren                   |
 |                     | Kann Funktionen korrekt aufrufen und das Funktionsergebnis speichern    |
-| **Sozialform**      | Partnerarbeit                                                           |
+| **Sozialform**      | Einzelarbeit                                                            |
 | **Auftrag**         | siehe unten                                                             |
 | **Hilfsmittel**     |                                                                         |
 | **Zeitbedarf**      | 30min                                                                   |
