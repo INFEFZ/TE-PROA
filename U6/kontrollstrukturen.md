@@ -16,8 +16,9 @@
       - [1.3.4.2. continue](#1342-continue)
 - [2. Aufgaben](#2-aufgaben)
   - [2.1. Grössere Zahl ermitteln (if)](#21-grössere-zahl-ermitteln-if)
-  - [2.1. Mehrfachauswahl (if else if, switch)](#21-mehrfachauswahl-if-else-if-switch)
-  - [2.1. Iterative Ablaufstrukturen (Mittelwert)](#21-iterative-ablaufstrukturen-mittelwert)
+  - [2.2. Mehrfachauswahl (if else if, switch)](#22-mehrfachauswahl-if-else-if-switch)
+  - [2.3. Mittelwert mit 3 Zahlen (Anweisung, if)](#23-mittelwert-mit-3-zahlen-anweisung-if)
+  - [2.4. Mittelwert mit n-Zahlen (Iteration)](#24-mittelwert-mit-n-zahlen-iteration)
 
 ---
 
@@ -25,7 +26,7 @@
 
 - **Sequenz:**
   - Der Code wird in der Reihenfolge ausgeführt, wie er geschrieben ist.
-- **Verzweigung:
+- **Verzweigung**:
   - Mit **`if`**- und **`switch`**-Anweisungen können Sie Entscheidungen treffen, die den Fluss des Programms ändern.
 - **Wiederholung:**
   - Schleifen wie **`for`**, **`while`** und **`do-while`** ermöglichen es, Codeblöcke basierend auf einer Bedingung mehrmals auszuführen.
@@ -276,14 +277,16 @@ int main() {
 | **Zeitbedarf**      | 20min                                                                 |
 | **Lösungselemente** | Korrekte und lauffähige Implementation                                |
 
-Programmiere folgendes Programm:
+- Programmiere folgendes Programm:
+  - Einlesen von zwei Ganzzahlen vom User (Konsole)
+  - Gebe die grössere Zahl in der Konsole aus z.B. `Die Grössere Zahl ist: 10`.
 
-- Einlesen von zwei Ganzzahlen vom User (Konsole)
-- Gebe die grössere Zahl in der Konsole aus z.B. `Die Grössere Zahl ist: 10`.
+- Diagramm
+  - ![Diagramm](./x_gitres/ablaufstrukturen-if-else.png)
 
 ---
 
-## 2.1. Mehrfachauswahl (if else if, switch)
+## 2.2. Mehrfachauswahl (if else if, switch)
 
 | **Vorgabe**         | **Beschreibung**                                                      |
 | :------------------ | :-------------------------------------------------------------------- |
@@ -296,16 +299,42 @@ Programmiere folgendes Programm:
 | **Zeitbedarf**      | 20min                                                                 |
 | **Lösungselemente** | Korrekte und lauffähige Implementation                                |
 
-Programmiere folgendes Programm:
+- Programmiere folgendes Programm:
+  - Das Programm fordert den Benutzer auf eine Zahl zwischen 1 bis 7 einzugeben.
+  - Anschliessend soll der Wochentag Montag = 1 bis Sonntag = 7 ausgegeben werden.
+  - Falls der Benutzer eine ungültige Zahl eingibt, soll das Programm eine Fehlermeldung ausgeben.
+  - Löse die **Mehrfachwauswahl** zuerst mit **`if else if`** und danach mit dem **`swich`** Befehl
 
-- Das Programm fordert den Benutzer auf eine Zahl zwischen 1 bis 7 einzugeben.
-- Anschliessend soll der Wochentag Montag = 1 bis Sonntag = 7 ausgegeben werden.
-- Falls der Benutzer eine ungültige Zahl eingibt, soll das Programm eine Fehlermeldung ausgeben.
-- Löse die **Mehrfachwauswahl** zuerst mit **`if else if`** und danach mit dem **`swich`** Befehl
+- Diagramm
+  - ![Diagramm](./x_gitres/ablaufstrukturen-switch.png)
 
 ---
 
-## 2.1. Iterative Ablaufstrukturen (Mittelwert)
+## 2.3. Mittelwert mit 3 Zahlen (Anweisung, if)
+
+| **Vorgabe**         | **Beschreibung**                                                      |
+| :------------------ | :-------------------------------------------------------------------- |
+| **Lernziele**       | Kennt die Ablaufstrukturen in Programmiersprache C                    |
+|                     | Kann einige Ablaufstruktur nach Vorgabe implementieren                |
+|                     | Kann eine effiziente Ablaufstrukturen problemlösungsbezogen bestimmen |
+| **Sozialform**      | Partnerarbeit                                                         |
+| **Auftrag**         | siehe unten                                                           |
+| **Hilfsmittel**     |                                                                       |
+| **Zeitbedarf**      | 20min                                                                 |
+| **Lösungselemente** | Korrekte und lauffähige Implementation                                |
+
+- Programmiere folgendes Programm:
+  - Einlesen einer Zahl vom User (Console)
+  - Einlesen einer 2. Zahl
+  - Einlesen einer 3. Zahl
+  - Ausgabe der des Mittelwertes der  3 Zahlen, wenn der Mittelwert grösser 10 ist.
+
+- Diagramm
+  - ![Diagramm](./x_gitres/task-mittelwert-3zahlen.png)
+
+---
+
+## 2.4. Mittelwert mit n-Zahlen (Iteration)
 
 | **Vorgabe**         | **Beschreibung**                                                      |
 | :------------------ | :-------------------------------------------------------------------- |
@@ -319,8 +348,8 @@ Programmiere folgendes Programm:
 | **Lösungselemente** | Korrekte und lauffähige Implementation                                |
 
 - Programmiere folgendes Programm:
-  - Einlesen einer Zahl vom User (Konsole)
   - Einlesen von n-Zahlen in einer Schleife bis der User **«q»** eingibt.
   - Ausgabe der des Mittelwertes der n-Zahlen
 
-![Iteration](./x_gitres/task-iteration.png)
+- Diagramm
+  - ![Diagramm](./x_gitres/task-iteration.png)
