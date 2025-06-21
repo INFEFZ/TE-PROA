@@ -356,7 +356,7 @@ void main(void) {
 | **Zeitbedarf**      | 10min                                                                   |
 | **Lösungselemente** |                                                                         |
 
-Rufe die [W3Schhol C-Functions](https://www.w3schools.com/c/c_functions.php) Seite auf und arbeite das Kapitel C-Functions durch.
+Rufe die [W3School C-Functions](https://www.w3schools.com/c/c_functions.php) Seite auf und arbeite das Kapitel C-Functions durch.
 
 ---
 
