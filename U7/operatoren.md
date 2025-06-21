@@ -97,11 +97,11 @@ int main() {
 
 **Logische Operatoren** werden verwendet, um boolesche Ausdrücke zu verbinden.
 
-| **Operator** | **Beschreibung**        | **Beispiel**                       |                     |     |     |                          |
-| ------------ | ----------------------- | ---------------------------------- | ------------------- | --- | --- | ------------------------ |
-| `&&`         | Logisches UND (AND)     | `a && b` → `1` (wenn `a=1`, `b=1`) |                     |     |     |                          |
-| \`           |                         | \`                                 | Logisches ODER (OR) | \`a |     | b`→`1`(wenn`a=1`,`b=0\`) |
-| `!`          | Logische Negation (NOT) | `!a` → `0` (wenn `a=1`)            |                     |     |     |                          |
+| **Operator** | **Beschreibung**        | **Beispiel**                       |
+| ------------ | ----------------------- | ---------------------------------- |
+| `&&`         | Logisches UND (AND)     | `a && b` → `1` (wenn `a=1`, `b=1`) |
+| `\\`         | Logisches ODER (OR)     | `a \|\| b`→`1`(wenn`a=1`,`b=0\`)   |
+| `!`          | Logische Negation (NOT) | `!a` → `0` (wenn `a=1`)            |
 
 ## 1.6. Beispiel Logische Operatoren
 
@@ -149,14 +149,14 @@ int main() {
 
 **Bitweise Operatoren** arbeiten auf der Bit-Ebene der Operanden. Sie werden häufig bei der Manipulation von Flags oder bei Optimierungen verwendet.
 
-| **Operator** | **Beschreibung**          | **Beispiel**   |     |     |
-| ------------ | ------------------------- | -------------- | --- | --- |
-| `&`          | Bitweises UND             | `a & b`        |     |     |
-| \`           | \`                        | Bitweises ODER | \`a | b\` |
-| `^`          | Bitweises exklusives ODER | `a ^ b`        |     |     |
-| `~`          | Bitweise Negation (NOT)   | `~a`           |     |     |
-| `<<`         | Linksverschiebung         | `a << 1`       |     |     |
-| `>>`         | Rechtsverschiebung        | `a >> 1`       |     |     |
+| **Operator** | **Beschreibung**          | **Beispiel** |
+| ------------ | ------------------------- | ------------ |
+| `&`          | Bitweises UND             | `a & b`      |
+| `\|`         | Bitweises ODER            | `a \| b`     |
+| `^`          | Bitweises exklusives ODER | `a ^ b`      |
+| `~`          | Bitweise Negation (NOT)   | `~a`         |
+| `<<`         | Linksverschiebung         | `a << 1`     |
+| `>>`         | Rechtsverschiebung        | `a >> 1`     |
 
 ```c
 #include <stdio.h>
