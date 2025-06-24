@@ -11,6 +11,7 @@
 - [7. Erweiterte Bremswegberechnung](#7-erweiterte-bremswegberechnung)
 - [8. Wechselkurs](#8-wechselkurs)
 - [9. Wechselkurs 2](#9-wechselkurs-2)
+- [Zahl raten](#zahl-raten)
 
 ---
 
@@ -111,3 +112,14 @@ Löse die Aufgabe als C-Konsolen-Programm.
 - Erweitere die Aufgabe Wechselkurs so, damit immer wieder ein neuer Betrag und eine neue Währung eingegeben werden kann. 
 - Das Programm kann mit `'q'` beendet werden.
 - Erkläre warum diese Aufgabe mit jeder Schleifen-Art gelöst werden kann und warum deine gewählte Art die Beste ist.
+
+
+--
+
+</br>
+
+# Zahl raten
+
+- Der Benutzer soll eine Zahl zwischen 1 und 100 erraten. 
+- Das Programm gibt Feedback, ob die Zahl zu hoch oder zu niedrig ist, bis der Benutzer die richtige Zahl erraten hat.
+- Erweitere das Programm, indem die Anzahl der Versuche gezählt und angezeigt werden. 
